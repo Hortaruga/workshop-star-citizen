@@ -1,0 +1,39 @@
+name: Atualizar preços de itens
+
+on:
+  schedule:
+    - cron: "37 10 * * *" # 07:37 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-item-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Buscar preços no UEX
+        env:
+          UEX_API_TOKEN: ${{ secrets.UEX_API_TOKEN }}
+        run: python scripts/update_item_prices.py
+      - name: Salvar alterações
+        run: |
+          git add item-prices.json
+          if git diff --cached --quiet; then
+            echo "Sem alterações."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Atualiza preços de itens"
+          git pull --rebase origin main
+          git push
