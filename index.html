@@ -96,6 +96,9 @@ td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabu
 .card ul,.block ul,.block ol{margin:0;padding-left:20px;display:grid;gap:5px;max-width:72ch}
 kbd{font:600 .85rem var(--mono);padding:1px 6px;background:var(--sunken);border:1px solid var(--line)}
 .sources li{overflow-wrap:anywhere}
+.shipImg{margin:0;display:grid;gap:6px}.shipImg .frame{aspect-ratio:16/9;width:100%;max-width:100%;max-height:440px;background:linear-gradient(var(--sky1),var(--sky2) 60%,var(--sky3));overflow:hidden;display:grid;place-items:center}
+.shipImg img{width:100%;height:100%;object-fit:cover;display:block}.shipImg .none{color:var(--fg);font-weight:600;padding:16px;text-align:center}
+.shipImg figcaption{font-size:.85rem;color:var(--muted)}
 .linkbtn{all:unset;cursor:pointer;font-weight:700;color:var(--accent-text);text-decoration:underline;text-underline-offset:2px}.linkbtn:focus-visible{outline:3px solid var(--accent)}
 #shipPanel{background:var(--surface);border:1px solid var(--line);padding:18px;display:grid;gap:16px;min-width:0}
 #shipPanel select{min-width:0;width:100%;background:var(--bg)}
@@ -231,12 +234,10 @@ tr.hit td{background:var(--warn-bg);color:var(--warn-fg)}
   </div>
   <div class="scroll"><table><thead><tr><th>Comprador</th><th>Local</th><th>aUEC/SCU</th><th class="num">Total da carga</th><th>Atualizado</th></tr></thead><tbody id="sellRows"></tbody></table></div>
   <div class="notice"><strong>Confira a direção do preço.</strong> Vários terminais vendem o material para você, em vez de comprá-lo. O RMC aparece a 7.587 em estações como Baijini Point, Seraphim e Port Tressler, a 7.144 em Pickers Field, Rappel e Dunboro, e de 5.998 a 6.523 em Jackson's Swap, Canard View e Sacren's Plot. Construction Materials aparece a 8.640 em Levski e 10.023 em Last Landings, Sunset Mesa, Seer's Canyon, Rustville e Chawla's Beach.</div>
-  <div class="block"><h3>Notas da revisão de 02/11/2026</h3><ul>
-    <li>O melhor RMC caiu: Seer's Canyon passou de 8.500 para 7.800, e Terra Mills assumiu a liderança, com 8.000.</li>
-    <li>Construction Materials perdeu o pico de 14.000: agora o teto listado é 13.000.</li>
-    <li>Terra Mills aparece a 8.000 na wiki (30/10) e cerca de 8.100 no UEX. A tabela usa o valor da wiki.</li>
-    <li>O UEX mostra Construction Materials arredondado ao milhar. A tabela usa o UEX por ter os relatos mais recentes; a wiki difere em algumas estações, como HUR-L1 e ARC-L1, a 13.000 em 30/10.</li>
+  <div class="block"><h3>Como ler os preços</h3><ul>
+    <li>Os valores vêm do UEX e são relatos da comunidade, que podem não refletir o servidor neste momento.</li>
     <li>O estoque do terminal pode limitar a quantidade e reduzir o preço de venda. A tabela não mostra essa variação.</li>
+    <li>Confira a data de cada linha: um relato antigo tem mais chance de estar desatualizado.</li>
   </ul></div>
 </section>
 
@@ -369,7 +370,7 @@ tr.hit td{background:var(--warn-bg);color:var(--warn-fg)}
 </section>
 
 <section id="v-fontes" hidden>
-  <div class="block"><h2>Fontes</h2><p>Consultadas em 02/11/2026. A wiki e a listagem por terminal têm prioridade quando há conflito. O PTU do 4.10.3 já estava em teste, então alguns valores podem mudar em breve.</p>
+  <div class="block"><h2>Fontes</h2><p>Consultadas em 02/11/2026. Os preços de salvage vêm do UEX por uma atualização diária. O PTU do 4.10.3 já estava em teste, então alguns valores podem mudar em breve.</p>
   <ul class="sources">
     <li><a href="https://starcitizen.tools/Salvaging" target="_blank" rel="noopener">Star Citizen Wiki: Salvage</a>: mecânica, naves, módulos e regras legais, editado em 12/10/2026.</li>
     <li><a href="https://uexcorp.space/commodities/info/name/recycled-material-composite/tab/locations_buying/" target="_blank" rel="noopener">UEX: RMC</a> e <a href="https://uexcorp.space/commodities/info/name/construction-materials/tab/locations_buying/" target="_blank" rel="noopener">UEX: Construction Materials</a>: preços e idade dos relatos, consultados em 02/11/2026.</li>
@@ -411,7 +412,7 @@ function renderHulls(){const best=Math.max(...buyers.RMC.map(r=>r.m));$('#hulls'
 
 const MATS=[
 {id:'rmc',c:'Salvage',n:'Recycled Material Composite (RMC)',s:'Raspagem de casco',p:'5.000–8.000',t:'ok',d:'Vem da camada externa do casco. Qualquer nave de salvage produz RMC, sem limite de tamanho do naufrágio. Vende direto em terminais de commodities. Também pode encher canisters de ferramentas de reparo.',l:'https://starcitizen.tools/Recycled_Material_Composite',go:'RMC'},
-{id:'cmat',c:'Salvage',n:'Construction Materials',s:'Refino de material estrutural',p:'9.700–13.000',t:'ok',d:'A única forma vendável do material estrutural. Paga mais por SCU que o RMC, mas exige refino, que consome tempo e dinheiro. Várias estações de Stanton pagam 13.000, como Port Tressler, Everus Harbor e HUR-L3.',l:'https://starcitizen.tools/Construction_Materials',go:'CM'},
+{id:'cmat',c:'Salvage',n:'Construction Materials',s:'Refino de material estrutural',p:'9.700–13.000',t:'ok',d:'A única forma vendável do material estrutural. Paga mais por SCU que o RMC, mas exige refino, que consome tempo e dinheiro. Veja os compradores atuais em Onde vender.',l:'https://starcitizen.tools/Construction_Materials',go:'CM'},
 {id:'rubble',c:'Salvage',n:'Construction Rubble',s:'Salvation, Vulture, Fortune',p:'Sem venda direta',t:'ok',d:'Material mais denso, refino mais rápido e menor rendimento. Precisa virar Construction Materials. Em terminal, o bruto não tem comprador.'},
 {id:'pieces',c:'Salvage',n:'Construction Pieces',s:'MOTH',p:'Sem venda direta',t:'ok',d:'Densidade, tempo de refino e rendimento intermediários. Precisa virar Construction Materials.'},
 {id:'csalv',c:'Salvage',n:'Construction Salvage',s:'Reclaimer',p:'Sem venda direta',t:'ok',d:'Menor densidade, refino mais lento e maior rendimento. Precisa virar Construction Materials.'},
@@ -661,6 +662,8 @@ const optLabel=i=>`${i.n} · S${i.s}${i.g?' · '+i.g:''}${i.d?' · '+fmt(i.d)+' 
 const slotItem=(sl,x,ch)=>{const k=ch&&ch[x];if(k!=null){const f=LO.IT.findIndex((i,ix)=>itemKey(i)===k&&options(sl).includes(ix));if(f>=0)return f}return sl[1]};
 function calc(L,ch){const r={d:0,a:0,re:0,p:0,c:0,q:0,md:0,hs:[],res:[]};L.sl.forEach((sl,x)=>{const ix=slotItem(sl,x,ch);if(ix<0)return;const i=LO.IT[ix];r.d+=i.d||0;r.a+=i.a||0;if(i.t==='S')r.res.push(i);r.p+=i.p||0;r.c+=i.c||0;r.md+=i.md||0;if(i.q&&!r.q)r.q=i.q});
  r.res.sort((a,b)=>(b.h||0)-(a.h||0));const act=r.res.slice(0,L.sa||r.res.length);r.h=act.reduce((a,i)=>a+(i.h||0),0);r.re=act.reduce((a,i)=>a+(i.re||0),0);return r}
+let SHIPIMG={};
+const shipFigure=ship=>{const im=SHIPIMG[ship.id];const none=`<div class="none">Imagem indisponível para ${esc(ship.n)}</div>`;return `<figure class="shipImg"><div class="frame">${im?`<img src="${esc(im.u)}" alt="${esc(ship.n)}" loading="lazy" referrerpolicy="no-referrer">`:none}</div>${im?`<figcaption>${im.b?'Imagem da nave base. ':''}Fonte: <a href="${esc(im.p)}" target="_blank" rel="noopener">Star Citizen Wiki</a>.</figcaption>`:''}</figure>`};
 function renderPanel(){const ship=SHIPS.find(x=>x.id===mcur.ship),L=LO.SL[mcur.ship];if(!ship||!L){$('#shipPanel').innerHTML='<p>Sem dados de equipamento para esta nave.</p>';return}
  const base=calc(L,{}),now=calc(L,mcur.ch);
  const met=[['DPS total, todos os assentos','d'],['Dano por disparo','a'],['Escudo ativo (HP)','h'],['Regeneração (HP/s)','re'],['Energia (segmentos)','p'],['Refrigeração (segmentos)','c'],['Velocidade quântica (Mm/s)','q'],['Dano total de mísseis','md']].filter(m=>base[m[1]]||now[m[1]]);
@@ -673,7 +676,7 @@ function renderPanel(){const ship=SHIPS.find(x=>x.id===mcur.ship),L=LO.SL[mcur.s
  const mine=mods.map(m=>`<option value="${esc(m.id)}" ${m.id===mcur.id?'selected':''}>${esc(m.name)} · ${esc((SHIPS.find(x=>x.id===m.ship)||{}).n||m.ship)}</option>`).join('');
  const focus=document.activeElement&&document.activeElement.id;
  $('#shipPanel').innerHTML=`<div class="controls" style="justify-content:space-between"><div style="min-width:0"><span class="label">${ship.t} · ${esc(ship.m)}</span><h3 style="font-size:1.8rem">${esc(ship.n)}</h3><p class="count">${esc(ship.r||'—')} · ${ship.cr} tripulante(s) · ${ship.g?fmt(ship.g)+' SCU':'sem carga listada'}</p></div></div>
- <div class="controls"><div class="field" style="flex:1 1 220px"><label class="label" for="mName">Nome do modelo</label><input type="text" id="mName" maxlength="60" value="${esc(mcur.name)}" placeholder="Ex.: Caçador de recompensas"></div><div class="field" style="flex:1 1 220px"><label class="label" for="mList">Modelos salvos</label><select id="mList"><option value="">${mods.length?'Escolher…':'Nenhum modelo salvo'}</option>${mine}</select></div></div>
+ ${shipFigure(ship)}<div class="controls"><div class="field" style="flex:1 1 220px"><label class="label" for="mName">Nome do modelo</label><input type="text" id="mName" maxlength="60" value="${esc(mcur.name)}" placeholder="Ex.: Caçador de recompensas"></div><div class="field" style="flex:1 1 220px"><label class="label" for="mList">Modelos salvos</label><select id="mList"><option value="">${mods.length?'Escolher…':'Nenhum modelo salvo'}</option>${mine}</select></div></div>
  <div class="chips"><button class="btn" id="mSave">${mcur.id?'Atualizar modelo':'Salvar modelo'}</button><button class="btn" id="mReset">Voltar ao padrão</button><button class="btn" id="mCopy">Copiar resumo</button>${mcur.id?'<button class="btn" id="mDel">Excluir modelo</button>':''}</div><p class="count" id="mMsg"></p>
  <div class="scroll"><table><thead><tr><th>Comparação</th><th class="num">Padrão</th><th class="num">Modelo</th><th class="num">Diferença</th></tr></thead><tbody>${met.map(row).join('')||'<tr><td colspan="4">Sem números para comparar.</td></tr>'}</tbody></table></div>
  <p class="count">${ch.length} troca(s).${ch.length?` Preço conhecido: ${fmt(known)} aUEC${unk?`; ${unk} item(ns) sem preço no guia`:''}.`:''} As opções seguem tipo e tamanho do encaixe. O DPS é nominal: scatterguns, por exemplo, perdem muito a distância. O guia não calcula o balanço de energia e calor, e alguns itens podem não estar à venda, então confira no jogo.</p>
@@ -683,6 +686,8 @@ function openShip(id){if(mcur.ship!==id)mcur={ship:id,ch:{},id:null,name:''};ren
 function modelText(){const ship=SHIPS.find(x=>x.id===mcur.ship),L=LO.SL[mcur.ship];const lines=[`${mcur.name||'Modelo sem nome'} (${ship.n})`];Object.keys(GN).forEach(g=>{const c={};L.sl.forEach((sl,x)=>{if(sl[0]!==g)return;const ix=slotItem(sl,x,mcur.ch);if(ix>=0){const n=LO.IT[ix].n;c[n]=(c[n]||0)+1}});const k=Object.keys(c);if(k.length)lines.push(`${GN[g]}: ${k.map(n=>c[n]+'x '+n).join(', ')}`)});return lines.join('\n')}
 $('#shipPanel').addEventListener('change',e=>{const t=e.target;if(t.dataset.slot!=null){const x=+t.dataset.slot,sl=LO.SL[mcur.ship].sl[x];if(t.value===''||+t.value===sl[1])delete mcur.ch[x];else mcur.ch[x]=itemKey(LO.IT[+t.value]);renderPanel()}
  else if(t.id==='mList'){const m=mods.find(z=>z.id===t.value);if(m){mcur={ship:m.ship,ch:{...m.ch},id:m.id,name:m.name};renderPanel()}}});
+$('#shipPanel').addEventListener('error',e=>{if(e.target.tagName==='IMG'){const f=e.target.parentElement,c=f.parentElement.querySelector('figcaption');f.innerHTML='<div class="none">Não foi possível carregar a imagem.</div>'}},true);
+fetch('ship-images.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).then(j=>{if(j&&typeof j==='object'){SHIPIMG=j;renderPanel()}}).catch(()=>{});
 $('#shipPanel').addEventListener('input',e=>{if(e.target.id==='mName')mcur.name=e.target.value});
 $('#shipPanel').addEventListener('click',e=>{const id=e.target.id,msg=t=>{const m=$('#mMsg');if(m)m.textContent=t};
  if(id==='mSave'){const name=mcur.name.trim();if(!name){msg('Dê um nome ao modelo para salvar.');$('#mName').focus();return}if(!mcur.id&&mods.length>=50){msg('Limite de 50 modelos. Exclua um para salvar outro.');return}

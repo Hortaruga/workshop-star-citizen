@@ -1,0 +1,37 @@
+name: Atualizar imagens das naves
+
+on:
+  schedule:
+    - cron: "41 11 * * 1" # segundas, 08:41 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-images
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Buscar imagens na wiki
+        run: python scripts/update_ship_images.py
+      - name: Salvar alterações
+        run: |
+          git add ship-images.json
+          if git diff --cached --quiet; then
+            echo "Sem alterações."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Atualiza imagens das naves"
+          git pull --rebase origin main
+          git push
