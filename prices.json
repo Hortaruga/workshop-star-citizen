@@ -1,0 +1,414 @@
+{
+"updated": "2026-11-02",
+"gameVersion": "4.10.2",
+"rmc": [
+{
+"m": 8000,
+"n": "Terra Mills Hydrofarm",
+"s": "Stanton",
+"u": "30/10",
+"w": "Cellin"
+},
+{
+"m": 7800,
+"n": "Seer's Canyon",
+"s": "Pyro",
+"u": "25/10",
+"w": "Vatra"
+},
+{
+"m": 7700,
+"n": "Admin – Rod's Fuel 'N Supplies",
+"s": "Pyro",
+"u": "02/11",
+"w": "Pyro V"
+},
+{
+"m": 7700,
+"n": "Admin – Patch City",
+"s": "Pyro",
+"u": "30/10",
+"w": "Bloom"
+},
+{
+"m": 7700,
+"n": "Admin – Starlight Service",
+"s": "Pyro",
+"u": "02/11",
+"w": "Bloom"
+},
+{
+"m": 7700,
+"n": "Admin – Endgame",
+"s": "Pyro",
+"u": "02/11",
+"w": "Pyro IV"
+},
+{
+"m": 7700,
+"n": "Admin – Gaslight",
+"s": "Pyro",
+"u": "02/11",
+"w": "Pyro V"
+},
+{
+"m": 7700,
+"n": "Admin – Rat's Nest",
+"s": "Pyro",
+"u": "02/11",
+"w": "Pyro V"
+},
+{
+"m": 7700,
+"n": "Ashland",
+"s": "Pyro",
+"u": "25/10",
+"w": "Ignis"
+},
+{
+"m": 7700,
+"n": "Admin – Dudley & Daughters",
+"s": "Pyro",
+"u": "16/10",
+"w": "Terminus"
+},
+{
+"m": 7700,
+"n": "Last Landings",
+"s": "Pyro",
+"u": "25/10",
+"w": "Terminus"
+},
+{
+"m": 7700,
+"n": "Rustville",
+"s": "Pyro",
+"u": "25/10",
+"w": "Pyro I"
+},
+{
+"m": 7700,
+"n": "Fallow Field",
+"s": "Pyro",
+"u": "30/10",
+"w": "Pyro IV"
+},
+{
+"m": 7700,
+"n": "The Golden Riviera",
+"s": "Pyro",
+"u": "30/10",
+"w": "Bloom"
+},
+{
+"m": 7600,
+"n": "TDD – Cloudview Center, Orison",
+"s": "Stanton",
+"u": "02/11",
+"w": "Crusader"
+},
+{
+"m": 7200,
+"n": "Admin – Ruin Station",
+"s": "Pyro",
+"u": "02/11",
+"w": "Terminus"
+},
+{
+"m": 7200,
+"n": "Admin – GrimHEX",
+"s": "Stanton",
+"u": "23/10",
+"w": "Yela"
+},
+{
+"m": 7100,
+"n": "Admin – Pyro Gateway (Nyx)",
+"s": "Nyx",
+"u": "26/10",
+"w": "Pyro Gateway"
+},
+{
+"m": 6500,
+"n": "Levski",
+"s": "Nyx",
+"u": "29/10",
+"w": "Delamar"
+},
+{
+"m": 6400,
+"n": "Samson & Son's Salvage Center",
+"s": "Stanton",
+"u": "30/10",
+"w": "Wala"
+},
+{
+"m": 6200,
+"n": "Reclamation and Disposal Orinth",
+"s": "Stanton",
+"u": "25/10",
+"w": "Hurston"
+},
+{
+"m": 6000,
+"n": "CBD – Lorville",
+"s": "Stanton",
+"u": "01/11",
+"w": "Hurston"
+},
+{
+"m": 6000,
+"n": "TDD – Area 18",
+"s": "Stanton",
+"u": "27/10",
+"w": "ArcCorp"
+},
+{
+"m": 6000,
+"n": "TDD – Commons, New Babbage",
+"s": "Stanton",
+"u": "30/10",
+"w": "microTech"
+},
+{
+"m": 5700,
+"n": "Maintenance Room – CRU-L5",
+"s": "Stanton",
+"u": "30/10",
+"w": "Crusader"
+},
+{
+"m": 5500,
+"n": "Brio's Breaker Yard",
+"s": "Stanton",
+"u": "31/10",
+"w": "Daymar"
+},
+{
+"m": 5000,
+"n": "Devlin Scrap and Salvage",
+"s": "Stanton",
+"u": "28/10",
+"w": "Euterpe"
+}
+],
+"cm": [
+{
+"m": 13000,
+"n": "Admin – Port Tressler",
+"s": "Stanton",
+"u": "01/11",
+"w": "microTech"
+},
+{
+"m": 13000,
+"n": "Admin – ARC-L3",
+"s": "Stanton",
+"u": "29/10",
+"w": "ArcCorp"
+},
+{
+"m": 13000,
+"n": "Admin – HUR-L4",
+"s": "Stanton",
+"u": "30/10",
+"w": "Hurston"
+},
+{
+"m": 13000,
+"n": "Admin – MIC-L1",
+"s": "Stanton",
+"u": "01/11",
+"w": "microTech"
+},
+{
+"m": 13000,
+"n": "Admin – Everus Harbor",
+"s": "Stanton",
+"u": "02/11",
+"w": "Hurston"
+},
+{
+"m": 13000,
+"n": "Admin – HUR-L3",
+"s": "Stanton",
+"u": "02/11",
+"w": "Hurston"
+},
+{
+"m": 13000,
+"n": "Admin – MIC-L5",
+"s": "Stanton",
+"u": "02/11",
+"w": "microTech"
+},
+{
+"m": 13000,
+"n": "Admin – CRU-L4",
+"s": "Stanton",
+"u": "01/11",
+"w": "Crusader"
+},
+{
+"m": 13000,
+"n": "Admin – MIC-L4",
+"s": "Stanton",
+"u": "27/10",
+"w": "microTech"
+},
+{
+"m": 12000,
+"n": "Admin – MIC-L2",
+"s": "Stanton",
+"u": "27/10",
+"w": "microTech"
+},
+{
+"m": 12000,
+"n": "Admin – ARC-L4",
+"s": "Stanton",
+"u": "01/11",
+"w": "ArcCorp"
+},
+{
+"m": 12000,
+"n": "Admin – Terra Gateway (Stanton)",
+"s": "Stanton",
+"u": "02/11",
+"w": "Terra Gateway"
+},
+{
+"m": 12000,
+"n": "Admin – Pyro Gateway (Stanton)",
+"s": "Stanton",
+"u": "01/11",
+"w": "Pyro Gateway"
+},
+{
+"m": 12000,
+"n": "Admin – Checkmate",
+"s": "Pyro",
+"u": "02/11",
+"w": "Monox"
+},
+{
+"m": 12000,
+"n": "Admin – Megumi Refueling",
+"s": "Pyro",
+"u": "16/10",
+"w": "Terminus"
+},
+{
+"m": 12000,
+"n": "CBD – Lorville",
+"s": "Stanton",
+"u": "31/10",
+"w": "Hurston"
+},
+{
+"m": 12000,
+"n": "Admin – ARC-L1",
+"s": "Stanton",
+"u": "01/11",
+"w": "ArcCorp"
+},
+{
+"m": 12000,
+"n": "TDD – Area 18",
+"s": "Stanton",
+"u": "02/11",
+"w": "ArcCorp"
+},
+{
+"m": 12000,
+"n": "Admin – HUR-L1",
+"s": "Stanton",
+"u": "01/11",
+"w": "Hurston"
+},
+{
+"m": 12000,
+"n": "TDD – Commons, New Babbage",
+"s": "Stanton",
+"u": "30/10",
+"w": "microTech"
+},
+{
+"m": 12000,
+"n": "Rust – Pickers Field",
+"s": "Stanton",
+"u": "29/10",
+"w": "Hurston"
+},
+{
+"m": 12000,
+"n": "Scrap – Rappel",
+"s": "Stanton",
+"u": "26/10",
+"w": "Hurston"
+},
+{
+"m": 12000,
+"n": "Rust – Dunboro",
+"s": "Stanton",
+"u": "25/10",
+"w": "microTech"
+},
+{
+"m": 12000,
+"n": "Admin – Orbituary",
+"s": "Pyro",
+"u": "31/10",
+"w": "Bloom"
+},
+{
+"m": 12000,
+"n": "TDD – Cloudview Center, Orison",
+"s": "Stanton",
+"u": "02/11",
+"w": "Crusader"
+},
+{
+"m": 12000,
+"n": "Admin – Pyro Gateway (Nyx)",
+"s": "Nyx",
+"u": "25/10",
+"w": "Pyro Gateway"
+},
+{
+"m": 12000,
+"n": "Admin – Stanton Gateway (Pyro)",
+"s": "Pyro",
+"u": "30/10",
+"w": "Stanton Gateway"
+},
+{
+"m": 12000,
+"n": "Admin – Ruin Station",
+"s": "Pyro",
+"u": "02/11",
+"w": "Terminus"
+},
+{
+"m": 11000,
+"n": "Admin – GrimHEX",
+"s": "Stanton",
+"u": "23/10",
+"w": "Yela"
+},
+{
+"m": 10000,
+"n": "Reclamation and Disposal Orinth",
+"s": "Stanton",
+"u": "25/10",
+"w": "Hurston"
+},
+{
+"m": 9700,
+"n": "Maintenance Room – CRU-L5",
+"s": "Stanton",
+"u": "29/10",
+"w": "Crusader"
+}
+]
+}
