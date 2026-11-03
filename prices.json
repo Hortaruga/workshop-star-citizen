@@ -1,414 +1,414 @@
 {
-"updated": "2026-11-02",
+"updated": "2026-11-03",
 "gameVersion": "4.10.2",
 "rmc": [
 {
-"m": 8000,
 "n": "Terra Mills Hydrofarm",
+"w": "Cellin",
 "s": "Stanton",
-"u": "30/10",
-"w": "Cellin"
+"m": 8000,
+"u": "30/10"
 },
 {
-"m": 7800,
 "n": "Seer's Canyon",
+"w": "Vatra",
 "s": "Pyro",
-"u": "25/10",
-"w": "Vatra"
+"m": 7800,
+"u": "25/10"
 },
 {
-"m": 7700,
-"n": "Admin – Rod's Fuel 'N Supplies",
+"n": "Admin - Dudley & Daughters",
+"w": "Terminus",
 "s": "Pyro",
-"u": "02/11",
-"w": "Pyro V"
+"m": 7700,
+"u": "16/10"
 },
 {
-"m": 7700,
-"n": "Admin – Patch City",
+"n": "Admin - Endgame",
+"w": "Pyro IV",
 "s": "Pyro",
-"u": "30/10",
-"w": "Bloom"
+"m": 7700,
+"u": "02/11"
 },
 {
-"m": 7700,
-"n": "Admin – Starlight Service",
+"n": "Admin - Gaslight",
+"w": "Pyro V",
 "s": "Pyro",
-"u": "02/11",
-"w": "Bloom"
+"m": 7700,
+"u": "01/11"
 },
 {
-"m": 7700,
-"n": "Admin – Endgame",
+"n": "Admin - Patch City",
+"w": "Bloom",
 "s": "Pyro",
-"u": "02/11",
-"w": "Pyro IV"
+"m": 7700,
+"u": "30/10"
 },
 {
-"m": 7700,
-"n": "Admin – Gaslight",
+"n": "Admin - Rat's Nest",
+"w": "Pyro V",
 "s": "Pyro",
-"u": "02/11",
-"w": "Pyro V"
+"m": 7700,
+"u": "01/11"
 },
 {
-"m": 7700,
-"n": "Admin – Rat's Nest",
+"n": "Admin - Rod's Fuel 'N Supplies",
+"w": "Pyro V",
 "s": "Pyro",
-"u": "02/11",
-"w": "Pyro V"
+"m": 7700,
+"u": "03/11"
 },
 {
+"n": "Admin - Starlight Service",
+"w": "Bloom",
+"s": "Pyro",
 "m": 7700,
+"u": "01/11"
+},
+{
 "n": "Ashland",
+"w": "Ignis",
 "s": "Pyro",
-"u": "25/10",
-"w": "Ignis"
+"m": 7700,
+"u": "02/11"
 },
 {
-"m": 7700,
-"n": "Admin – Dudley & Daughters",
-"s": "Pyro",
-"u": "16/10",
-"w": "Terminus"
-},
-{
-"m": 7700,
-"n": "Last Landings",
-"s": "Pyro",
-"u": "25/10",
-"w": "Terminus"
-},
-{
-"m": 7700,
-"n": "Rustville",
-"s": "Pyro",
-"u": "25/10",
-"w": "Pyro I"
-},
-{
-"m": 7700,
 "n": "Fallow Field",
+"w": "Pyro IV",
 "s": "Pyro",
-"u": "30/10",
-"w": "Pyro IV"
-},
-{
 "m": 7700,
+"u": "02/11"
+},
+{
+"n": "Last Landings",
+"w": "Terminus",
+"s": "Pyro",
+"m": 7700,
+"u": "25/10"
+},
+{
+"n": "Rustville",
+"w": "Pyro I",
+"s": "Pyro",
+"m": 7700,
+"u": "25/10"
+},
+{
 "n": "The Golden Riviera",
+"w": "Bloom",
 "s": "Pyro",
-"u": "30/10",
-"w": "Bloom"
+"m": 7700,
+"u": "02/11"
 },
 {
+"n": "TDD - Trade and Development Division - Cloudview Center - Orison",
+"w": "Crusader",
+"s": "Stanton",
 "m": 7600,
-"n": "TDD – Cloudview Center, Orison",
-"s": "Stanton",
-"u": "02/11",
-"w": "Crusader"
+"u": "02/11"
 },
 {
+"n": "Admin - GrimHEX",
+"w": "Yela",
+"s": "Stanton",
 "m": 7200,
-"n": "Admin – Ruin Station",
+"u": "23/10"
+},
+{
+"n": "Admin - Ruin Station",
+"w": "Terminus",
 "s": "Pyro",
-"u": "02/11",
-"w": "Terminus"
-},
-{
 "m": 7200,
-"n": "Admin – GrimHEX",
-"s": "Stanton",
-"u": "23/10",
-"w": "Yela"
+"u": "01/11"
 },
 {
+"n": "Admin - Pyro Gateway (Nyx)",
+"w": "Pyro Gateway (Nyx system)",
+"s": "Nyx",
 "m": 7100,
-"n": "Admin – Pyro Gateway (Nyx)",
-"s": "Nyx",
-"u": "26/10",
-"w": "Pyro Gateway"
+"u": "26/10"
 },
 {
-"m": 6500,
 "n": "Levski",
+"w": "Delamar",
 "s": "Nyx",
-"u": "29/10",
-"w": "Delamar"
+"m": 6500,
+"u": "29/10"
 },
 {
-"m": 6400,
 "n": "Samson & Son's Salvage Center",
+"w": "Wala",
 "s": "Stanton",
-"u": "30/10",
-"w": "Wala"
+"m": 6400,
+"u": "30/10"
 },
 {
-"m": 6200,
 "n": "Reclamation and Disposal Orinth",
+"w": "Hurston",
 "s": "Stanton",
-"u": "25/10",
-"w": "Hurston"
+"m": 6200,
+"u": "25/10"
 },
 {
+"n": "CBD - Central Business District - Lorville",
+"w": "Hurston",
+"s": "Stanton",
 "m": 6000,
-"n": "CBD – Lorville",
-"s": "Stanton",
-"u": "01/11",
-"w": "Hurston"
+"u": "03/11"
 },
 {
+"n": "TDD - Trade and Development Division - Area 18",
+"w": "ArcCorp",
+"s": "Stanton",
 "m": 6000,
-"n": "TDD – Area 18",
-"s": "Stanton",
-"u": "27/10",
-"w": "ArcCorp"
+"u": "02/11"
 },
 {
+"n": "TDD - Trade and Development Division - Commons - New Babbage",
+"w": "MicroTech",
+"s": "Stanton",
 "m": 6000,
-"n": "TDD – Commons, New Babbage",
-"s": "Stanton",
-"u": "30/10",
-"w": "microTech"
+"u": "30/10"
 },
 {
+"n": "Maintenance Room - CRU-L5",
+"w": "Crusader",
+"s": "Stanton",
 "m": 5700,
-"n": "Maintenance Room – CRU-L5",
-"s": "Stanton",
-"u": "30/10",
-"w": "Crusader"
+"u": "30/10"
 },
 {
-"m": 5500,
 "n": "Brio's Breaker Yard",
+"w": "Daymar",
 "s": "Stanton",
-"u": "31/10",
-"w": "Daymar"
+"m": 5500,
+"u": "31/10"
 },
 {
-"m": 5000,
 "n": "Devlin Scrap and Salvage",
+"w": "Euterpe",
 "s": "Stanton",
-"u": "28/10",
-"w": "Euterpe"
+"m": 5000,
+"u": "28/10"
 }
 ],
 "cm": [
 {
+"n": "Admin - ARC-L4",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 14000,
+"u": "03/11"
+},
+{
+"n": "Admin - ARC-L3",
+"w": "ArcCorp",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – Port Tressler",
-"s": "Stanton",
-"u": "01/11",
-"w": "microTech"
+"u": "29/10"
 },
 {
+"n": "Admin - CRU-L4",
+"w": "Crusader",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – ARC-L3",
-"s": "Stanton",
-"u": "29/10",
-"w": "ArcCorp"
+"u": "01/11"
 },
 {
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – HUR-L4",
-"s": "Stanton",
-"u": "30/10",
-"w": "Hurston"
+"u": "03/11"
 },
 {
+"n": "Admin - HUR-L3",
+"w": "Hurston",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – MIC-L1",
-"s": "Stanton",
-"u": "01/11",
-"w": "microTech"
+"u": "02/11"
 },
 {
+"n": "Admin - HUR-L4",
+"w": "Hurston",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – Everus Harbor",
-"s": "Stanton",
-"u": "02/11",
-"w": "Hurston"
+"u": "30/10"
 },
 {
+"n": "Admin - MIC-L1",
+"w": "MicroTech",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – HUR-L3",
-"s": "Stanton",
-"u": "02/11",
-"w": "Hurston"
+"u": "01/11"
 },
 {
+"n": "Admin - MIC-L4",
+"w": "MicroTech",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – MIC-L5",
-"s": "Stanton",
-"u": "02/11",
-"w": "microTech"
+"u": "27/10"
 },
 {
+"n": "Admin - MIC-L5",
+"w": "MicroTech",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – CRU-L4",
-"s": "Stanton",
-"u": "01/11",
-"w": "Crusader"
+"u": "03/11"
 },
 {
+"n": "Admin - Port Tressler",
+"w": "MicroTech",
+"s": "Stanton",
 "m": 13000,
-"n": "Admin – MIC-L4",
-"s": "Stanton",
-"u": "27/10",
-"w": "microTech"
+"u": "01/11"
 },
 {
-"m": 12000,
-"n": "Admin – MIC-L2",
-"s": "Stanton",
-"u": "27/10",
-"w": "microTech"
-},
-{
-"m": 12000,
-"n": "Admin – ARC-L4",
-"s": "Stanton",
-"u": "01/11",
-"w": "ArcCorp"
-},
-{
-"m": 12000,
-"n": "Admin – Terra Gateway (Stanton)",
-"s": "Stanton",
-"u": "02/11",
-"w": "Terra Gateway"
-},
-{
-"m": 12000,
-"n": "Admin – Pyro Gateway (Stanton)",
-"s": "Stanton",
-"u": "01/11",
-"w": "Pyro Gateway"
-},
-{
-"m": 12000,
-"n": "Admin – Checkmate",
+"n": "Admin - Ruin Station",
+"w": "Terminus",
 "s": "Pyro",
-"u": "02/11",
-"w": "Monox"
+"m": 13000,
+"u": "03/11"
 },
 {
+"n": "Admin - ARC-L1",
+"w": "ArcCorp",
+"s": "Stanton",
 "m": 12000,
-"n": "Admin – Megumi Refueling",
+"u": "01/11"
+},
+{
+"n": "Admin - Checkmate",
+"w": "Monox",
 "s": "Pyro",
-"u": "16/10",
-"w": "Terminus"
+"m": 12000,
+"u": "03/11"
 },
 {
-"m": 12000,
-"n": "CBD – Lorville",
+"n": "Admin - HUR-L1",
+"w": "Hurston",
 "s": "Stanton",
-"u": "31/10",
-"w": "Hurston"
+"m": 12000,
+"u": "01/11"
 },
 {
-"m": 12000,
-"n": "Admin – ARC-L1",
+"n": "Admin - MIC-L2",
+"w": "MicroTech",
 "s": "Stanton",
-"u": "01/11",
-"w": "ArcCorp"
+"m": 12000,
+"u": "28/10"
 },
 {
-"m": 12000,
-"n": "TDD – Area 18",
-"s": "Stanton",
-"u": "02/11",
-"w": "ArcCorp"
-},
-{
-"m": 12000,
-"n": "Admin – HUR-L1",
-"s": "Stanton",
-"u": "01/11",
-"w": "Hurston"
-},
-{
-"m": 12000,
-"n": "TDD – Commons, New Babbage",
-"s": "Stanton",
-"u": "30/10",
-"w": "microTech"
-},
-{
-"m": 12000,
-"n": "Rust – Pickers Field",
-"s": "Stanton",
-"u": "29/10",
-"w": "Hurston"
-},
-{
-"m": 12000,
-"n": "Scrap – Rappel",
-"s": "Stanton",
-"u": "26/10",
-"w": "Hurston"
-},
-{
-"m": 12000,
-"n": "Rust – Dunboro",
-"s": "Stanton",
-"u": "25/10",
-"w": "microTech"
-},
-{
-"m": 12000,
-"n": "Admin – Orbituary",
+"n": "Admin - Megumi Refueling",
+"w": "Terminus",
 "s": "Pyro",
-"u": "31/10",
-"w": "Bloom"
+"m": 12000,
+"u": "17/10"
 },
 {
+"n": "Admin - Orbituary",
+"w": "Bloom",
+"s": "Pyro",
 "m": 12000,
-"n": "TDD – Cloudview Center, Orison",
-"s": "Stanton",
-"u": "02/11",
-"w": "Crusader"
+"u": "01/11"
 },
 {
-"m": 12000,
-"n": "Admin – Pyro Gateway (Nyx)",
+"n": "Admin - Pyro Gateway (Nyx)",
+"w": "Pyro Gateway (Nyx system)",
 "s": "Nyx",
-"u": "25/10",
-"w": "Pyro Gateway"
-},
-{
 "m": 12000,
-"n": "Admin – Stanton Gateway (Pyro)",
-"s": "Pyro",
-"u": "30/10",
-"w": "Stanton Gateway"
+"u": "26/10"
 },
 {
+"n": "Admin - Pyro Gateway (Stanton)",
+"w": "Pyro Gateway (Stanton system)",
+"s": "Stanton",
 "m": 12000,
-"n": "Admin – Ruin Station",
-"s": "Pyro",
-"u": "02/11",
-"w": "Terminus"
+"u": "01/11"
 },
 {
+"n": "Admin - Stanton Gateway (Pyro)",
+"w": "Stanton Gateway (Pyro system)",
+"s": "Pyro",
+"m": 12000,
+"u": "30/10"
+},
+{
+"n": "Admin - Terra Gateway (Stanton)",
+"w": "Terra Gateway (Stanton system)",
+"s": "Stanton",
+"m": 12000,
+"u": "03/11"
+},
+{
+"n": "CBD - Central Business District - Lorville",
+"w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "01/11"
+},
+{
+"n": "Rust - Dunboro",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "26/10"
+},
+{
+"n": "Rust - Pickers Field",
+"w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "29/10"
+},
+{
+"n": "Scrap - Rappel",
+"w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "26/10"
+},
+{
+"n": "TDD - Trade and Development Division - Area 18",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 12000,
+"u": "02/11"
+},
+{
+"n": "TDD - Trade and Development Division - Cloudview Center - Orison",
+"w": "Crusader",
+"s": "Stanton",
+"m": 12000,
+"u": "02/11"
+},
+{
+"n": "TDD - Trade and Development Division - Commons - New Babbage",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "30/10"
+},
+{
+"n": "Admin - GrimHEX",
+"w": "Yela",
+"s": "Stanton",
 "m": 11000,
-"n": "Admin – GrimHEX",
-"s": "Stanton",
-"u": "23/10",
-"w": "Yela"
+"u": "23/10"
 },
 {
-"m": 10000,
 "n": "Reclamation and Disposal Orinth",
+"w": "Hurston",
 "s": "Stanton",
-"u": "25/10",
-"w": "Hurston"
+"m": 10000,
+"u": "25/10"
 },
 {
-"m": 9700,
-"n": "Maintenance Room – CRU-L5",
+"n": "Maintenance Room - CRU-L5",
+"w": "Crusader",
 "s": "Stanton",
-"u": "29/10",
-"w": "Crusader"
+"m": 9700,
+"u": "30/10"
 }
 ]
 }
