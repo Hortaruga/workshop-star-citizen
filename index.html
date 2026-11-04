@@ -209,6 +209,18 @@ tr.hit td{background:var(--warn-bg);color:var(--warn-fg)}
     <p><span class="tag ok">LISTADO</span>preço por terminal, 4.10.2 &nbsp; <span class="tag est">ESTIMATIVA</span>número comunitário do ciclo 4.10 &nbsp; <span class="tag live">AO VIVO</span>consulte uma ferramenta de preços</p>
     <div class="chips" id="matFilter" role="group" aria-label="Filtrar por categoria"></div>
   </div>
+  <div class="block" id="wreckLink"><p><button class="linkbtn" id="wreckOpen">Ver onde procurar destroços</button></p></div>
+  <div class="block" id="wreckBox" hidden>
+    <h2>Onde procurar destroços</h2>
+    <p>O jogo não publica a chance de aparecer um destroço em cada local, e nenhuma fonte consultada mede isso. Por isso, a lista ordena as opções pelo grau de certeza, sem usar porcentagens.</p>
+    <div class="controls"><div class="field"><label class="label" for="wrSys">Sistema</label><select id="wrSys"><option value="">Todos</option><option>Stanton</option><option>Pyro</option><option>Nyx</option></select></div></div>
+    <div class="scroll"><table><thead><tr><th>Local ou contrato</th><th>Sistema</th><th>Certeza</th><th class="num">Custo (aUEC)</th><th>O que esperar</th></tr></thead><tbody id="wrRows"></tbody></table></div>
+    <div class="cards">
+      <div class="card"><h3>Como procurar</h3><ul><li>Use o scanner com <kbd>V</kbd> e envie o ping com <kbd>Tab</kbd>.</li><li>Uma citação do guia oficial sugere procurar painéis por assinaturas múltiplas de 2.000.</li><li>Jogadores relatam que os destroços mudam quando o servidor reinicia, a cada 8 a 12 horas.</li></ul></div>
+      <div class="card"><h3>Antes de cortar</h3><ul><li>Em nave intacta, escaneie o dono: "Gamerules" indica que ela foi abandonada.</li><li>Em Armistice Zone, salvage de nave não destruída gera infração.</li><li>Destroços podem atrair piratas e outros salvagers.</li></ul></div>
+      <div class="card"><h3>Sem confirmação de naves</h3><ul><li><strong>Brio's, Samson &amp; Son's e outros ferros-velhos:</strong> servem para vender e trabalhar, e a wiki não lista naves ali.</li><li><strong>Derelict Outposts de Pyro:</strong> são assentamentos, e o feixe de salvage não afeta prédios.</li><li><strong>QV Breaker Stations de Nyx:</strong> são estações desativadas, sem relato encontrado de destroços.</li></ul></div>
+    </div>
+  </div>
   <div id="matList"></div>
 </section>
 
@@ -379,6 +391,7 @@ tr.hit td{background:var(--warn-bg);color:var(--warn-fg)}
     <li><a href="https://api.star-citizen.wiki/comm-links/19070" target="_blank" rel="noopener">RSI: Salvage and Repair Guide</a> (cópia da Comm-Link).</li>
     <li><a href="https://www.scorg.org/salvage" target="_blank" rel="noopener">SCORG: Salvage</a> e <a href="https://expcarry.com/star-citizen-salvage-guide" target="_blank" rel="noopener">ExpCarry: Salvage Guide</a>: comparação de preços.</li>
     <li><a href="https://github.com/StarCitizenWiki/scunpacked-data" target="_blank" rel="noopener">scunpacked-data</a>: catálogo de naves extraído dos arquivos do jogo, 4.10.2-LIVE, atualizado em 28/10/2026.</li>
+    <li><a href="https://api.star-citizen.wiki/missions/wrecked-ships-for-sale" target="_blank" rel="noopener">Star Citizen Wiki API: missões de salvage</a>, <a href="https://starcitizen.tools/Guide:Salvaging" target="_blank" rel="noopener">Wiki: Guide:Salvaging</a>, <a href="https://star-citizen.help/guides/careers/salvaging-career-guide/" target="_blank" rel="noopener">Star Citizen Help</a> e <a href="https://hud-manager.com/salvage" target="_blank" rel="noopener">H.U.D Manager</a>: onde procurar destroços.</li>
     <li><a href="https://starcitizen.tools/Orison" target="_blank" rel="noopener">Wiki: Orison</a>: referência do visual. <a href="https://addons.mozilla.org/firefox/addon/sc-bridge-sync/" target="_blank" rel="noopener">SC Bridge Sync</a> e <a href="https://chromewebstore.google.com/detail/verselink-rsi-hangar-sync/pbppcjngnekebfojkheicemdejginndo" target="_blank" rel="noopener">VerseLink</a>: sincronização de hangar.</li>
     <li><a href="https://uexcorp.space/api/documentation/id/get_items_prices_all/" target="_blank" rel="noopener">UEX: preços de itens</a>: compra e venda de armas e componentes, atualizados diariamente.</li>
     <li><a href="https://stoppingpower.io/weapons/" target="_blank" rel="noopener">Stopping Power: Weapons</a>: tiros para derrubar, Alpha 4.10.2. <a href="https://bustedloops.com/guides/star-citizen-fps-weapons-guide-4-10" target="_blank" rel="noopener">Busted Loops</a>: onde comprar.</li>
@@ -430,10 +443,26 @@ const MATS=[
 ];
 const TAG={ok:'LISTADO',est:'ESTIMATIVA',live:'AO VIVO'};
 let matCat='Todos';
-function renderMats(){
+const WRECKS=[
+['Claim: Salvage Rights','Contrato no mobiGlas. Coordenadas exclusivas em espaço monitorado.','Stanton',0,'1.000','Uma nave com localização verificada. Boa opção para começar.'],
+['Wrecked Ships for Sale','Contrato em Checkmate, L4 de Pyro II.','Pyro',0,'1.000','Uma nave rebocada até a estação. O contrato indica combate com 1 inimigo.'],
+['Nyx Lawful Salvage (Fácil)','Contrato da Adagio Holdings em Nyx I, II, III e asteroides.','Nyx',0,'5.000','Uma nave e 1 inimigo.'],
+['Salvage Wrecked Ships on the Drift','Contrato perto de Checkmate, L4 de Pyro II.','Pyro',0,'50.000','Várias naves, 6 a 8 inimigos e possíveis rivais.'],
+['In the Wake of Disaster','Contrato de Clovus Darneely, na região de Hurston, em local sem cobertura de comunicação.','Stanton',0,'200.000','1 a 5 naves simultâneas e 1 a 5 inimigos. Dados do 4.10.1.'],
+['Clear [Location] of Salvage','Contrato legal da Citizens For Prosperity. Inclui PYR1 a PYR3, RAB e Cluster NBD-102.','Pyro',0,'Não informado','Um painel, sem combate. Você fica com o RMC.'],
+['Scrap Salvage at [Location]','Contrato ilegal dos Headhunters. Inclui pontos PYR1 a PYR3, Monox, Pyro I e Checkmate.','Pyro',0,'Não informado','Pilha de sucata com RMC e pagamento. Conta como atividade ilegal.'],
+['Pontos de Lagrange','Busca com scanner. O texto de missões da Adagio recomenda esses pontos.','Todos',1,'Grátis','Sem garantia de encontrar algo em cada visita.'],
+['Stanton-Pyro Jump Point Wreck Site','Local de destroços nos arquivos do mapa, oculto no Starmap, perto do salto Stanton-Pyro.','Stanton',1,'Grátis','Existe nos dados, mas não confirmei se tem naves agora.'],
+['Estações e áreas de muito tráfego','Busca visual e com scanner. Citado pela wiki.','Todos',1,'Grátis','Naves abandonadas ou destruídas. Atenção à Armistice Zone.'],
+['Cinturões de asteroides e áreas de batalha','Busca com scanner perto de combates com NPCs. Inclui o campo de Hurston e os anéis de Crusader.','Stanton',2,'Grátis','Relato de um guia de 2025, que pode estar desatualizado.']];
+const WTAG=[['ok','CONTRATO'],['est','INDICADO'],['live','RELATO']];
+function renderWrecks(){const sys=$('#wrSys').value,l=WRECKS.filter(w=>!sys||w[2]===sys||w[2]==='Todos');$('#wrRows').innerHTML=l.map(w=>`<tr><td><strong>${esc(w[0])}</strong><br><small>${esc(w[1])}</small></td><td>${w[2]==='Todos'?'Todos':`<span class="sys ${w[2]}">${w[2]}</span>`}</td><td><span class="tag ${WTAG[w[3]][0]}">${WTAG[w[3]][1]}</span></td><td class="num">${w[4]}</td><td>${esc(w[5])}</td></tr>`).join('')}
+$('#wrSys').addEventListener('input',renderWrecks);
+function renderMats(){$('#wreckBox').hidden=matCat!=='Salvage';$('#wreckLink').hidden=matCat==='Salvage'||(matCat!=='Todos');renderWrecks();
   $('#matFilter').innerHTML=['Todos','Salvage','Mineração','Comércio','Ilegal'].map(c=>`<button class="chip" aria-pressed="${c===matCat}" data-c="${c}">${c}</button>`).join('');
   $('#matList').innerHTML=MATS.filter(m=>matCat==='Todos'||m.c===matCat).map(m=>`<details class="mat" id="m-${m.id}"><summary><b>${m.n}</b><span class="p">${m.p}</span><small>${m.c} · ${m.s}</small></summary><div class="body"><p>${m.d}</p><p><span class="tag ${m.t}">${TAG[m.t]}</span>${/\d/.test(m.p)?'aUEC por SCU':''}</p>${m.go?`<p><a href="#vender" data-mat="${m.go}">Ver compradores e calcular</a></p>`:''}${m.l?`<p><a href="${m.l}" target="_blank" rel="noopener">Abrir na wiki</a></p>`:''}</div></details>`).join('');
 }
+$('#wreckOpen').onclick=()=>{matCat='Salvage';renderMats();$('#wreckBox').scrollIntoView({block:'start'})};
 $('#matFilter').addEventListener('click',e=>{if(e.target.dataset.c){matCat=e.target.dataset.c;renderMats()}});
 $('#matList').addEventListener('click',e=>{if(e.target.dataset.mat){$('#cMat').value=e.target.dataset.mat;renderCalc()}});
 
@@ -564,7 +593,7 @@ const IDX=[
   ...MODS.map(m=>({t:m[0]+' Scraper Module',s:'Item · módulo',v:'itens',a:'i-'+m[0].toLowerCase(),k:'modulo'})),
  ...TOOLS.map(t=>({t:t.n,s:'Item · equipamento',v:'itens',a:'i-'+t.id,k:t.d})),
  ...[...new Map(BUY.flatMap(([mat,l])=>l.map(r=>[r.n+mat,{r,mat}]))).values()].map(({r,mat})=>({t:r.n,s:`Comprador de ${mat==='RMC'?'RMC':'Construction Materials'} · ${r.s} · ${fmt(r.m)} aUEC`,v:'vender',mat,k:r.w})),
- {t:'Minha frota',s:'Ganhos para as suas naves',v:'frota',k:'hangar conta naves rsi'},{t:'Controles de salvage',s:'Guia',v:'guia',a:'g-controles',k:'teclas atalhos'},{t:'Quando fraturar é legal',s:'Guia',v:'guia',a:'g-legal',k:'crimestat multa gamerules armistice'},{t:'Contratos de salvage',s:'Guia',v:'guia',a:'g-contratos',k:'missao'},{t:'Métodos de refino',s:'Guia',v:'guia',a:'g-refino',k:'cormack dinyx ferron electrostarolysis pyrometric refinaria'},{t:'Ciclo da mineração',s:'Guia',v:'guia',a:'g-mineracao',k:'rocha laser'},{t:'Comércio de mercadorias',s:'Guia',v:'guia',a:'g-comercio',k:'rotas trade uex'},{t:'Regras e riscos da conta',s:'Guia',v:'guia',a:'g-regras',k:'wipe termos aUEC'}
+ {t:'Onde procurar destroços',s:'Salvage · locais e contratos',v:'materiais',a:'wreckBox',k:'naufragio naufragios wreck derelict lagrange sucata',go(){matCat='Salvage';renderMats()}},{t:'Minha frota',s:'Ganhos para as suas naves',v:'frota',k:'hangar conta naves rsi'},{t:'Controles de salvage',s:'Guia',v:'guia',a:'g-controles',k:'teclas atalhos'},{t:'Quando fraturar é legal',s:'Guia',v:'guia',a:'g-legal',k:'crimestat multa gamerules armistice'},{t:'Contratos de salvage',s:'Guia',v:'guia',a:'g-contratos',k:'missao'},{t:'Métodos de refino',s:'Guia',v:'guia',a:'g-refino',k:'cormack dinyx ferron electrostarolysis pyrometric refinaria'},{t:'Ciclo da mineração',s:'Guia',v:'guia',a:'g-mineracao',k:'rocha laser'},{t:'Comércio de mercadorias',s:'Guia',v:'guia',a:'g-comercio',k:'rotas trade uex'},{t:'Regras e riscos da conta',s:'Guia',v:'guia',a:'g-regras',k:'wipe termos aUEC'}
 ];
 IDX.forEach(i=>i.h=norm(i.t+' '+i.s+' '+i.k));
 IDX_EXTRA.forEach(i=>{i.h=norm(i.t+' '+i.s+' '+i.k);IDX.push(i)});
@@ -581,7 +610,7 @@ res.addEventListener('click',e=>{
   const i=cur[+btn.dataset.n];res.hidden=true;q.value='';
   if(i.go)i.go();
   if(i.mat){$('#cMat').value=i.mat;$('#cSys').value='';renderCalc()}
-  if(i.v==='materiais'){matCat='Todos';renderMats()}
+  if(i.v==='materiais'&&!i.go){matCat='Todos';renderMats()}
   location.hash=i.v;show();
   if(i.a){const el=document.getElementById(i.a);if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView();}}
 });
