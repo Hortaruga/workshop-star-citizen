@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Guia em português de Star Citizen: naves, modelos, armas, componentes, salvage e onde vender."><link rel="icon" href="favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Guia em português de Star Citizen: naves, modelos, armas, componentes, salvage e onde vender."><link rel="icon" href="favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png"><meta property="og:image" content="https://hortaruga.github.io/workshop-star-citizen/icons/logo.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
 <title>Wiki-Citizen</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 :root[data-theme="dark"]{--bg:#121a33; --surface:#1c2547; --sunken:#0d1327; --fg:#eef1fb; --muted:#aeb8d8; --line:#3a4570; --accent:#ff8fb8; --on-accent:#330a1d; --accent-text:#ff9fc2; --rmc:#5fd0dd; --cm:#f39a63; --stanton:#7db9f0; --pyro:#f4937a; --nyx:#c0a4f0; --warn-bg:#3b1c35; --warn-fg:#ffd3e4; --sky1:#1a2452; --sky2:#54407f; --sky3:#d4708a; --cloud:244,190,205; --plat:#0e1430; --petal:#ff7fb0; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-html{scroll-padding-top:130px}
+html{scroll-padding-top:150px}
 body{background:var(--bg);color:var(--fg);font:400 17px/1.5 var(--body)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
 .wrap{max-width:1120px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -31,7 +31,7 @@ p{margin:0;max-width:68ch}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 0 var(--sky1)}
 .bar{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;padding-block:10px}
 .brand{font:700 1.45rem/1 var(--display);color:var(--fg);text-decoration:none;display:flex;gap:8px;align-items:center}
-.brand i{width:18px;height:18px;border:4px solid var(--accent);border-radius:50%;display:block}
+.brand img{display:block;height:48px;width:auto;max-width:none}
 .searchbox{position:relative;flex:1 1 240px;min-width:0}
 .searchbox input{width:100%;font:inherit;padding:7px 10px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:3px}
 #results{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--surface);border:1px solid var(--line);max-height:60vh;overflow:auto;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.25)}
@@ -125,11 +125,11 @@ tr.hit td{background:var(--warn-bg);color:var(--warn-fg)}
 .count{color:var(--muted);font-size:.95rem}
 .dmg{font:600 .8rem var(--mono);white-space:nowrap}.dmg.Energia{color:var(--rmc)}.dmg.Físico{color:var(--cm)}.dmg.Distorção{color:var(--nyx)}
 .gradeA{font-weight:700;color:var(--accent-text)}
-@media(max-width:760px){.hero,.calc{grid-template-columns:minmax(0,1fr)}.flow{grid-template-columns:minmax(0,1fr)}html{scroll-padding-top:170px}}
+@media(max-width:760px){.hero,.calc{grid-template-columns:minmax(0,1fr)}.flow{grid-template-columns:minmax(0,1fr)}html{scroll-padding-top:190px}}
 </style>
 
 <header class="top"><div class="wrap bar">
-  <a class="brand" href="#inicio"><i></i>Wiki-Citizen</a>
+  <a class="brand" href="#inicio"><img src="icons/emblem.png" alt="" width="83" height="48">Wiki-Citizen</a>
   <div class="searchbox"><input id="q" type="search" placeholder="Buscar RMC, Vulture, Panther, Atlas…" aria-label="Buscar no guia" autocomplete="off"><div id="results" hidden></div></div>
   <nav class="tabs" aria-label="Seções">
     <a href="#inicio">Início</a><a href="#frota">Minha frota</a><a href="#materiais">Materiais</a><a href="#vender">Onde vender</a><a href="#naves">Naves</a><a href="#armas">Armas</a><a href="#componentes">Componentes</a><a href="#itens">Itens</a><a href="#guia">Guia</a><a href="#fontes">Fontes</a>
