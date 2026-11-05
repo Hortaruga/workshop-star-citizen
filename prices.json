@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "gameVersion": "4.10.2",
 "rmc": [
 {
@@ -28,7 +28,7 @@
 "w": "Pyro IV",
 "s": "Pyro",
 "m": 7700,
-"u": "02/11"
+"u": "04/11"
 },
 {
 "n": "Admin - Gaslight",
@@ -63,7 +63,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "01/11"
+"u": "05/11"
 },
 {
 "n": "Ashland",
@@ -98,7 +98,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "02/11"
+"u": "04/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -168,7 +168,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "30/10"
+"u": "04/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -194,6 +194,13 @@
 ],
 "cm": [
 {
+"n": "Admin - ARC-L1",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 13000,
+"u": "05/11"
+},
+{
 "n": "Admin - CRU-L4",
 "w": "Crusader",
 "s": "Stanton",
@@ -205,21 +212,21 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "04/11"
-},
-{
-"n": "Admin - HUR-L3",
-"w": "Hurston",
-"s": "Stanton",
-"m": 13000,
-"u": "04/11"
+"u": "05/11"
 },
 {
 "n": "Admin - HUR-L4",
 "w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "30/10"
+"u": "05/11"
+},
+{
+"n": "Admin - MIC-L1",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 13000,
+"u": "05/11"
 },
 {
 "n": "Admin - MIC-L4",
@@ -229,32 +236,11 @@
 "u": "27/10"
 },
 {
-"n": "Admin - MIC-L5",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 13000,
-"u": "03/11"
-},
-{
-"n": "Admin - Port Tressler",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 13000,
-"u": "04/11"
-},
-{
-"n": "Admin - ARC-L1",
-"w": "ArcCorp",
-"s": "Stanton",
-"m": 12000,
-"u": "03/11"
-},
-{
 "n": "Admin - ARC-L3",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "01/11"
+"u": "04/11"
 },
 {
 "n": "Admin - ARC-L4",
@@ -278,11 +264,11 @@
 "u": "01/11"
 },
 {
-"n": "Admin - MIC-L1",
-"w": "MicroTech",
+"n": "Admin - HUR-L3",
+"w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "03/11"
+"u": "05/11"
 },
 {
 "n": "Admin - MIC-L2",
@@ -292,11 +278,18 @@
 "u": "28/10"
 },
 {
+"n": "Admin - MIC-L5",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "05/11"
+},
+{
 "n": "Admin - Megumi Refueling",
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "17/10"
+"u": "05/11"
 },
 {
 "n": "Admin - Orbituary",
@@ -304,6 +297,13 @@
 "s": "Pyro",
 "m": 12000,
 "u": "01/11"
+},
+{
+"n": "Admin - Port Tressler",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "05/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -387,7 +387,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "30/10"
+"u": "04/11"
 },
 {
 "n": "Admin - GrimHEX",
