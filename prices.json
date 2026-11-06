@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05",
+"updated": "2026-11-06",
 "gameVersion": "4.10.2",
 "rmc": [
 {
@@ -42,7 +42,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "30/10"
+"u": "05/11"
 },
 {
 "n": "Admin - Rat's Nest",
@@ -140,21 +140,21 @@
 "w": "Wala",
 "s": "Stanton",
 "m": 6400,
-"u": "30/10"
+"u": "06/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
 "w": "Hurston",
 "s": "Stanton",
 "m": 6200,
-"u": "25/10"
+"u": "06/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
 "w": "Hurston",
 "s": "Stanton",
 "m": 6000,
-"u": "03/11"
+"u": "05/11"
 },
 {
 "n": "TDD - Trade and Development Division - Area 18",
@@ -194,11 +194,11 @@
 ],
 "cm": [
 {
-"n": "Admin - ARC-L1",
+"n": "Admin - ARC-L3",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 13000,
-"u": "05/11"
+"u": "06/11"
 },
 {
 "n": "Admin - CRU-L4",
@@ -212,18 +212,11 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "05/11"
+"u": "06/11"
 },
 {
 "n": "Admin - HUR-L4",
 "w": "Hurston",
-"s": "Stanton",
-"m": 13000,
-"u": "05/11"
-},
-{
-"n": "Admin - MIC-L1",
-"w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
 "u": "05/11"
@@ -236,18 +229,25 @@
 "u": "27/10"
 },
 {
-"n": "Admin - ARC-L3",
+"n": "Admin - MIC-L5",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 13000,
+"u": "05/11"
+},
+{
+"n": "Admin - ARC-L1",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "04/11"
+"u": "05/11"
 },
 {
 "n": "Admin - ARC-L4",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "03/11"
+"u": "05/11"
 },
 {
 "n": "Admin - Checkmate",
@@ -261,11 +261,18 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "01/11"
+"u": "05/11"
 },
 {
 "n": "Admin - HUR-L3",
 "w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "05/11"
+},
+{
+"n": "Admin - MIC-L1",
+"w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
 "u": "05/11"
@@ -276,13 +283,6 @@
 "s": "Stanton",
 "m": 12000,
 "u": "28/10"
-},
-{
-"n": "Admin - MIC-L5",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 12000,
-"u": "05/11"
 },
 {
 "n": "Admin - Megumi Refueling",
@@ -296,7 +296,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 12000,
-"u": "01/11"
+"u": "06/11"
 },
 {
 "n": "Admin - Port Tressler",
@@ -338,14 +338,14 @@
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 12000,
-"u": "04/11"
+"u": "05/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "03/11"
+"u": "05/11"
 },
 {
 "n": "Rust - Dunboro",
@@ -401,7 +401,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 10000,
-"u": "25/10"
+"u": "06/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
