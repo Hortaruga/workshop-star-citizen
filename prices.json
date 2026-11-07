@@ -1,20 +1,13 @@
 {
-"updated": "2026-11-06",
+"updated": "2026-11-07",
 "gameVersion": "4.10.2",
 "rmc": [
-{
-"n": "Terra Mills Hydrofarm",
-"w": "Cellin",
-"s": "Stanton",
-"m": 8000,
-"u": "30/10"
-},
 {
 "n": "Seer's Canyon",
 "w": "Vatra",
 "s": "Pyro",
-"m": 7800,
-"u": "25/10"
+"m": 8500,
+"u": "07/11"
 },
 {
 "n": "Admin - Dudley & Daughters",
@@ -28,7 +21,7 @@
 "w": "Pyro IV",
 "s": "Pyro",
 "m": 7700,
-"u": "04/11"
+"u": "06/11"
 },
 {
 "n": "Admin - Gaslight",
@@ -104,15 +97,22 @@
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
 "w": "Crusader",
 "s": "Stanton",
-"m": 7500,
-"u": "03/11"
+"m": 7600,
+"u": "06/11"
+},
+{
+"n": "Terra Mills Hydrofarm",
+"w": "Cellin",
+"s": "Stanton",
+"m": 7400,
+"u": "07/11"
 },
 {
 "n": "Admin - GrimHEX",
 "w": "Yela",
 "s": "Stanton",
 "m": 7200,
-"u": "04/11"
+"u": "06/11"
 },
 {
 "n": "Admin - Ruin Station",
@@ -194,21 +194,21 @@
 ],
 "cm": [
 {
-"n": "Admin - ARC-L3",
-"w": "ArcCorp",
+"n": "Admin - CRU-L4",
+"w": "Crusader",
 "s": "Stanton",
 "m": 13000,
 "u": "06/11"
 },
 {
-"n": "Admin - CRU-L4",
-"w": "Crusader",
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "04/11"
+"u": "06/11"
 },
 {
-"n": "Admin - Everus Harbor",
+"n": "Admin - HUR-L3",
 "w": "Hurston",
 "s": "Stanton",
 "m": 13000,
@@ -222,18 +222,18 @@
 "u": "05/11"
 },
 {
-"n": "Admin - MIC-L4",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 13000,
-"u": "27/10"
-},
-{
 "n": "Admin - MIC-L5",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "05/11"
+"u": "07/11"
+},
+{
+"n": "Admin - ARC-L3",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 12739,
+"u": "07/11"
 },
 {
 "n": "Admin - ARC-L1",
@@ -264,13 +264,6 @@
 "u": "05/11"
 },
 {
-"n": "Admin - HUR-L3",
-"w": "Hurston",
-"s": "Stanton",
-"m": 12000,
-"u": "05/11"
-},
-{
 "n": "Admin - MIC-L1",
 "w": "MicroTech",
 "s": "Stanton",
@@ -283,6 +276,13 @@
 "s": "Stanton",
 "m": 12000,
 "u": "28/10"
+},
+{
+"n": "Admin - MIC-L4",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "06/11"
 },
 {
 "n": "Admin - Megumi Refueling",
@@ -338,7 +338,7 @@
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 12000,
-"u": "05/11"
+"u": "06/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
@@ -352,7 +352,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "26/10"
+"u": "06/11"
 },
 {
 "n": "Rust - Pickers Field",
@@ -366,7 +366,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "26/10"
+"u": "06/11"
 },
 {
 "n": "TDD - Trade and Development Division - Area 18",
@@ -380,7 +380,7 @@
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "03/11"
+"u": "06/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -394,7 +394,7 @@
 "w": "Yela",
 "s": "Stanton",
 "m": 11000,
-"u": "04/11"
+"u": "06/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
