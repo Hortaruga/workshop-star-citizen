@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09",
+"updated": "2026-11-10",
 "gameVersion": "4.10.2",
 "rmc": [
 {
@@ -36,13 +36,6 @@
 "s": "Pyro",
 "m": 7700,
 "u": "07/11"
-},
-{
-"n": "Admin - Starlight Service",
-"w": "Bloom",
-"s": "Pyro",
-"m": 7700,
-"u": "09/11"
 },
 {
 "n": "Ashland",
@@ -94,6 +87,13 @@
 "u": "07/11"
 },
 {
+"n": "Admin - Starlight Service",
+"w": "Bloom",
+"s": "Pyro",
+"m": 7500,
+"u": "09/11"
+},
+{
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
 "w": "Crusader",
 "s": "Stanton",
@@ -133,7 +133,7 @@
 "w": "Delamar",
 "s": "Nyx",
 "m": 6500,
-"u": "29/10"
+"u": "10/11"
 },
 {
 "n": "Samson & Son's Salvage Center",
@@ -168,7 +168,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "08/11"
+"u": "10/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -208,11 +208,11 @@
 "u": "08/11"
 },
 {
-"n": "Admin - CRU-L4",
-"w": "Crusader",
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "06/11"
+"u": "09/11"
 },
 {
 "n": "Admin - MIC-L2",
@@ -222,11 +222,11 @@
 "u": "06/11"
 },
 {
-"n": "Admin - MIC-L5",
+"n": "Admin - MIC-L4",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "05/11"
+"u": "10/11"
 },
 {
 "n": "Admin - Port Tressler",
@@ -247,19 +247,19 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "07/11"
+"u": "10/11"
+},
+{
+"n": "Admin - CRU-L4",
+"w": "Crusader",
+"s": "Stanton",
+"m": 12000,
+"u": "10/11"
 },
 {
 "n": "Admin - Checkmate",
 "w": "Monox",
 "s": "Pyro",
-"m": 12000,
-"u": "07/11"
-},
-{
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
-"s": "Stanton",
 "m": 12000,
 "u": "07/11"
 },
@@ -285,18 +285,18 @@
 "u": "07/11"
 },
 {
-"n": "Admin - MIC-L4",
+"n": "Admin - MIC-L5",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "06/11"
+"u": "10/11"
 },
 {
 "n": "Admin - Megumi Refueling",
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "07/11"
+"u": "09/11"
 },
 {
 "n": "Admin - Orbituary",
@@ -324,14 +324,14 @@
 "w": "Stanton Gateway (Pyro system)",
 "s": "Pyro",
 "m": 12000,
-"u": "04/11"
+"u": "10/11"
 },
 {
 "n": "Admin - Terra Gateway (Stanton)",
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 12000,
-"u": "09/11"
+"u": "10/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
@@ -380,7 +380,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "08/11"
+"u": "10/11"
 },
 {
 "n": "Admin - GrimHEX",
