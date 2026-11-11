@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10",
+"updated": "2026-11-11",
 "gameVersion": "4.10.2",
 "rmc": [
 {
@@ -24,18 +24,18 @@
 "u": "07/11"
 },
 {
-"n": "Admin - Gaslight",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7700,
-"u": "05/11"
-},
-{
 "n": "Admin - Patch City",
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
 "u": "07/11"
+},
+{
+"n": "Admin - Starlight Service",
+"w": "Bloom",
+"s": "Pyro",
+"m": 7700,
+"u": "10/11"
 },
 {
 "n": "Ashland",
@@ -73,6 +73,13 @@
 "u": "04/11"
 },
 {
+"n": "Admin - Gaslight",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7600,
+"u": "10/11"
+},
+{
 "n": "Admin - Rat's Nest",
 "w": "Pyro V",
 "s": "Pyro",
@@ -85,13 +92,6 @@
 "s": "Pyro",
 "m": 7600,
 "u": "07/11"
-},
-{
-"n": "Admin - Starlight Service",
-"w": "Bloom",
-"s": "Pyro",
-"m": 7500,
-"u": "09/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -161,7 +161,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "07/11"
+"u": "11/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -194,32 +194,25 @@
 ],
 "cm": [
 {
-"n": "Admin - ARC-L4",
-"w": "ArcCorp",
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
 "s": "Stanton",
-"m": 15000,
-"u": "08/11"
+"m": 13000,
+"u": "11/11"
+},
+{
+"n": "Admin - HUR-L3",
+"w": "Hurston",
+"s": "Stanton",
+"m": 13000,
+"u": "10/11"
 },
 {
 "n": "Admin - HUR-L4",
 "w": "Hurston",
 "s": "Stanton",
-"m": 13100,
-"u": "08/11"
-},
-{
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
-"s": "Stanton",
 "m": 13000,
-"u": "09/11"
-},
-{
-"n": "Admin - MIC-L2",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 13000,
-"u": "06/11"
+"u": "11/11"
 },
 {
 "n": "Admin - MIC-L4",
@@ -229,11 +222,11 @@
 "u": "10/11"
 },
 {
-"n": "Admin - Port Tressler",
+"n": "Admin - MIC-L5",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "09/11"
+"u": "11/11"
 },
 {
 "n": "Admin - ARC-L3",
@@ -248,6 +241,13 @@
 "s": "Stanton",
 "m": 12000,
 "u": "10/11"
+},
+{
+"n": "Admin - ARC-L4",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 12000,
+"u": "09/11"
 },
 {
 "n": "Admin - CRU-L4",
@@ -268,14 +268,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "05/11"
-},
-{
-"n": "Admin - HUR-L3",
-"w": "Hurston",
-"s": "Stanton",
-"m": 12000,
-"u": "07/11"
+"u": "11/11"
 },
 {
 "n": "Admin - MIC-L1",
@@ -285,18 +278,18 @@
 "u": "07/11"
 },
 {
-"n": "Admin - MIC-L5",
+"n": "Admin - MIC-L2",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "10/11"
+"u": "09/11"
 },
 {
 "n": "Admin - Megumi Refueling",
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "09/11"
+"u": "11/11"
 },
 {
 "n": "Admin - Orbituary",
@@ -304,6 +297,13 @@
 "s": "Pyro",
 "m": 12000,
 "u": "09/11"
+},
+{
+"n": "Admin - Port Tressler",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "11/11"
 },
 {
 "n": "Admin - Pyro Gateway (Stanton)",
@@ -366,7 +366,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "07/11"
+"u": "11/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
