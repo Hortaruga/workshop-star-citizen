@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12",
+"updated": "2026-11-13",
 "gameVersion": "4.10.2",
 "rmc": [
 {
@@ -14,7 +14,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 7700,
-"u": "07/11"
+"u": "12/11"
 },
 {
 "n": "Admin - Endgame",
@@ -28,7 +28,14 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "07/11"
+"u": "12/11"
+},
+{
+"n": "Admin - Rat's Nest",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7700,
+"u": "13/11"
 },
 {
 "n": "Admin - Rod's Fuel 'N Supplies",
@@ -42,7 +49,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "11/11"
+"u": "13/11"
 },
 {
 "n": "Ashland",
@@ -63,7 +70,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 7700,
-"u": "25/10"
+"u": "13/11"
 },
 {
 "n": "Rustville",
@@ -77,7 +84,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "04/11"
+"u": "13/11"
 },
 {
 "n": "Admin - Gaslight",
@@ -85,13 +92,6 @@
 "s": "Pyro",
 "m": 7600,
 "u": "10/11"
-},
-{
-"n": "Admin - Rat's Nest",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7600,
-"u": "07/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -119,21 +119,21 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 7200,
-"u": "03/11"
+"u": "12/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
 "w": "Pyro Gateway (Nyx system)",
 "s": "Nyx",
 "m": 7100,
-"u": "08/11"
+"u": "13/11"
 },
 {
 "n": "Levski",
 "w": "Delamar",
 "s": "Nyx",
 "m": 6500,
-"u": "12/11"
+"u": "13/11"
 },
 {
 "n": "Samson & Son's Salvage Center",
@@ -161,14 +161,14 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "11/11"
+"u": "12/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "10/11"
+"u": "13/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -194,11 +194,11 @@
 ],
 "cm": [
 {
-"n": "Admin - ARC-L4",
+"n": "Admin - ARC-L1",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 13000,
-"u": "12/11"
+"u": "13/11"
 },
 {
 "n": "Admin - CRU-L4",
@@ -206,6 +206,13 @@
 "s": "Stanton",
 "m": 13000,
 "u": "11/11"
+},
+{
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
+"s": "Stanton",
+"m": 13000,
+"u": "12/11"
 },
 {
 "n": "Admin - HUR-L3",
@@ -233,14 +240,21 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "10/11"
+"u": "12/11"
 },
 {
 "n": "Admin - MIC-L5",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "11/11"
+"u": "12/11"
+},
+{
+"n": "Admin - Port Tressler",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 13000,
+"u": "13/11"
 },
 {
 "n": "Admin - ARC-L3",
@@ -250,25 +264,18 @@
 "u": "07/11"
 },
 {
-"n": "Admin - ARC-L1",
+"n": "Admin - ARC-L4",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "10/11"
+"u": "12/11"
 },
 {
 "n": "Admin - Checkmate",
 "w": "Monox",
 "s": "Pyro",
 "m": 12000,
-"u": "07/11"
-},
-{
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
-"s": "Stanton",
-"m": 12000,
-"u": "11/11"
+"u": "13/11"
 },
 {
 "n": "Admin - HUR-L1",
@@ -289,28 +296,14 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "11/11"
-},
-{
-"n": "Admin - Orbituary",
-"w": "Bloom",
-"s": "Pyro",
-"m": 12000,
-"u": "09/11"
-},
-{
-"n": "Admin - Port Tressler",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 12000,
-"u": "11/11"
+"u": "13/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
 "w": "Pyro Gateway (Nyx system)",
 "s": "Nyx",
 "m": 12000,
-"u": "12/11"
+"u": "13/11"
 },
 {
 "n": "Admin - Pyro Gateway (Stanton)",
@@ -324,7 +317,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "03/11"
+"u": "12/11"
 },
 {
 "n": "Admin - Stanton Gateway (Pyro)",
@@ -373,7 +366,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "11/11"
+"u": "13/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -387,7 +380,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "10/11"
+"u": "13/11"
 },
 {
 "n": "Admin - GrimHEX",
@@ -395,6 +388,13 @@
 "s": "Stanton",
 "m": 11000,
 "u": "06/11"
+},
+{
+"n": "Admin - Orbituary",
+"w": "Bloom",
+"s": "Pyro",
+"m": 11000,
+"u": "12/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
