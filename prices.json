@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15",
+"updated": "2026-11-16",
 "gameVersion": "4.10.3",
 "rmc": [
 {
@@ -8,6 +8,13 @@
 "s": "Pyro",
 "m": 8500,
 "u": "07/11"
+},
+{
+"n": "Terra Mills Hydrofarm",
+"w": "Cellin",
+"s": "Stanton",
+"m": 8000,
+"u": "15/11"
 },
 {
 "n": "Admin - Dudley & Daughters",
@@ -24,6 +31,13 @@
 "u": "15/11"
 },
 {
+"n": "Admin - Gaslight",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7700,
+"u": "15/11"
+},
+{
 "n": "Admin - Patch City",
 "w": "Bloom",
 "s": "Pyro",
@@ -35,21 +49,7 @@
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "13/11"
-},
-{
-"n": "Admin - Rod's Fuel 'N Supplies",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7700,
-"u": "14/11"
-},
-{
-"n": "Admin - Starlight Service",
-"w": "Bloom",
-"s": "Pyro",
-"m": 7700,
-"u": "14/11"
+"u": "15/11"
 },
 {
 "n": "Ashland",
@@ -87,23 +87,23 @@
 "u": "13/11"
 },
 {
-"n": "Admin - Gaslight",
-"w": "Pyro V",
+"n": "Admin - Starlight Service",
+"w": "Bloom",
 "s": "Pyro",
-"m": 7600,
-"u": "10/11"
-},
-{
-"n": "Terra Mills Hydrofarm",
-"w": "Cellin",
-"s": "Stanton",
-"m": 7400,
-"u": "07/11"
+"m": 7500,
+"u": "15/11"
 },
 {
 "n": "Admin - GrimHEX",
 "w": "Yela",
 "s": "Stanton",
+"m": 7200,
+"u": "15/11"
+},
+{
+"n": "Admin - Rod's Fuel 'N Supplies",
+"w": "Pyro V",
+"s": "Pyro",
 "m": 7200,
 "u": "15/11"
 },
@@ -161,21 +161,21 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "14/11"
+"u": "15/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
 "w": "Crusader",
 "s": "Stanton",
 "m": 5700,
-"u": "04/11"
+"u": "15/11"
 },
 {
 "n": "Brio's Breaker Yard",
@@ -189,17 +189,10 @@
 "w": "Euterpe",
 "s": "Stanton",
 "m": 5000,
-"u": "04/11"
+"u": "16/11"
 }
 ],
 "cm": [
-{
-"n": "Admin - CRU-L4",
-"w": "Crusader",
-"s": "Stanton",
-"m": 13000,
-"u": "15/11"
-},
 {
 "n": "Admin - ARC-L1",
 "w": "ArcCorp",
@@ -222,18 +215,25 @@
 "u": "15/11"
 },
 {
+"n": "Admin - CRU-L4",
+"w": "Crusader",
+"s": "Stanton",
+"m": 12000,
+"u": "15/11"
+},
+{
 "n": "Admin - Everus Harbor",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "16/11"
 },
 {
 "n": "Admin - HUR-L1",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "13/11"
+"u": "16/11"
 },
 {
 "n": "Admin - HUR-L3",
@@ -254,14 +254,14 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "Admin - MIC-L2",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "15/11"
 },
 {
 "n": "Admin - MIC-L4",
@@ -282,26 +282,19 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "Admin - Port Tressler",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "Admin - Stanton Gateway (Pyro)",
 "w": "Stanton Gateway (Pyro system)",
 "s": "Pyro",
-"m": 12000,
-"u": "15/11"
-},
-{
-"n": "Admin - Terra Gateway (Stanton)",
-"w": "Terra Gateway (Stanton system)",
-"s": "Stanton",
 "m": 12000,
 "u": "15/11"
 },
@@ -317,7 +310,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "06/11"
+"u": "16/11"
 },
 {
 "n": "Rust - Pickers Field",
@@ -338,7 +331,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -352,7 +345,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "15/11"
 },
 {
 "n": "Admin - Checkmate",
@@ -373,7 +366,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 11000,
-"u": "12/11"
+"u": "16/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -397,6 +390,13 @@
 "u": "15/11"
 },
 {
+"n": "Admin - Terra Gateway (Stanton)",
+"w": "Terra Gateway (Stanton system)",
+"s": "Stanton",
+"m": 11000,
+"u": "16/11"
+},
+{
 "n": "Reclamation and Disposal Orinth",
 "w": "Hurston",
 "s": "Stanton",
@@ -408,7 +408,7 @@
 "w": "Crusader",
 "s": "Stanton",
 "m": 9700,
-"u": "04/11"
+"u": "15/11"
 }
 ]
 }
