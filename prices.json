@@ -1,7 +1,14 @@
 {
-"updated": "2026-11-16",
+"updated": "2026-11-17",
 "gameVersion": "4.10.3",
 "rmc": [
+{
+"n": "Terra Mills Hydrofarm",
+"w": "Cellin",
+"s": "Stanton",
+"m": 8900,
+"u": "17/11"
+},
 {
 "n": "Seer's Canyon",
 "w": "Vatra",
@@ -10,18 +17,11 @@
 "u": "07/11"
 },
 {
-"n": "Terra Mills Hydrofarm",
-"w": "Cellin",
-"s": "Stanton",
-"m": 8000,
-"u": "15/11"
-},
-{
 "n": "Admin - Dudley & Daughters",
 "w": "Terminus",
 "s": "Pyro",
 "m": 7700,
-"u": "14/11"
+"u": "17/11"
 },
 {
 "n": "Admin - Endgame",
@@ -49,7 +49,21 @@
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "15/11"
+"u": "16/11"
+},
+{
+"n": "Admin - Rod's Fuel 'N Supplies",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7700,
+"u": "16/11"
+},
+{
+"n": "Admin - Starlight Service",
+"w": "Bloom",
+"s": "Pyro",
+"m": 7700,
+"u": "16/11"
 },
 {
 "n": "Ashland",
@@ -70,7 +84,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 7700,
-"u": "13/11"
+"u": "16/11"
 },
 {
 "n": "Rustville",
@@ -84,14 +98,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "13/11"
-},
-{
-"n": "Admin - Starlight Service",
-"w": "Bloom",
-"s": "Pyro",
-"m": 7500,
-"u": "15/11"
+"u": "16/11"
 },
 {
 "n": "Admin - GrimHEX",
@@ -101,18 +108,11 @@
 "u": "15/11"
 },
 {
-"n": "Admin - Rod's Fuel 'N Supplies",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7200,
-"u": "15/11"
-},
-{
 "n": "Admin - Ruin Station",
 "w": "Terminus",
 "s": "Pyro",
 "m": 7200,
-"u": "15/11"
+"u": "17/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -132,8 +132,8 @@
 "n": "Levski",
 "w": "Delamar",
 "s": "Nyx",
-"m": 6400,
-"u": "15/11"
+"m": 6500,
+"u": "17/11"
 },
 {
 "n": "Samson & Son's Salvage Center",
@@ -147,7 +147,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 6200,
-"u": "06/11"
+"u": "17/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
@@ -161,7 +161,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "16/11"
+"u": "17/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -182,7 +182,7 @@
 "w": "Daymar",
 "s": "Stanton",
 "m": 5500,
-"u": "13/11"
+"u": "17/11"
 },
 {
 "n": "Devlin Scrap and Salvage",
@@ -194,11 +194,25 @@
 ],
 "cm": [
 {
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
+"s": "Stanton",
+"m": 13000,
+"u": "17/11"
+},
+{
+"n": "Admin - ARC-L4",
+"w": "ArcCorp",
+"s": "Stanton",
+"m": 12600,
+"u": "15/11"
+},
+{
 "n": "Admin - ARC-L1",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "16/11"
 },
 {
 "n": "Admin - ARC-L3",
@@ -208,13 +222,6 @@
 "u": "14/11"
 },
 {
-"n": "Admin - ARC-L4",
-"w": "ArcCorp",
-"s": "Stanton",
-"m": 12000,
-"u": "15/11"
-},
-{
 "n": "Admin - CRU-L4",
 "w": "Crusader",
 "s": "Stanton",
@@ -222,32 +229,25 @@
 "u": "15/11"
 },
 {
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
-"s": "Stanton",
-"m": 12000,
-"u": "16/11"
-},
-{
 "n": "Admin - HUR-L1",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "16/11"
+"u": "17/11"
 },
 {
 "n": "Admin - HUR-L3",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "17/11"
 },
 {
 "n": "Admin - HUR-L4",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "17/11"
 },
 {
 "n": "Admin - MIC-L1",
@@ -278,18 +278,18 @@
 "u": "14/11"
 },
 {
-"n": "Admin - Megumi Refueling",
-"w": "Terminus",
-"s": "Pyro",
-"m": 12000,
-"u": "16/11"
-},
-{
 "n": "Admin - Port Tressler",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "16/11"
+"u": "17/11"
+},
+{
+"n": "Admin - Ruin Station",
+"w": "Terminus",
+"s": "Pyro",
+"m": 12000,
+"u": "17/11"
 },
 {
 "n": "Admin - Stanton Gateway (Pyro)",
@@ -317,7 +317,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "16/11"
 },
 {
 "n": "Scrap - Rappel",
@@ -331,14 +331,14 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "16/11"
+"u": "17/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "08/11"
+"u": "15/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -362,11 +362,18 @@
 "u": "15/11"
 },
 {
+"n": "Admin - Megumi Refueling",
+"w": "Terminus",
+"s": "Pyro",
+"m": 11000,
+"u": "17/11"
+},
+{
 "n": "Admin - Orbituary",
 "w": "Bloom",
 "s": "Pyro",
 "m": 11000,
-"u": "16/11"
+"u": "15/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -380,14 +387,7 @@
 "w": "Pyro Gateway (Stanton system)",
 "s": "Stanton",
 "m": 11000,
-"u": "15/11"
-},
-{
-"n": "Admin - Ruin Station",
-"w": "Terminus",
-"s": "Pyro",
-"m": 11000,
-"u": "15/11"
+"u": "17/11"
 },
 {
 "n": "Admin - Terra Gateway (Stanton)",
@@ -401,7 +401,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 10000,
-"u": "06/11"
+"u": "17/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
