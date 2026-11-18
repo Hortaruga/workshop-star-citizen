@@ -1,14 +1,7 @@
 {
-"updated": "2026-11-17",
+"updated": "2026-11-18",
 "gameVersion": "4.10.3",
 "rmc": [
-{
-"n": "Terra Mills Hydrofarm",
-"w": "Cellin",
-"s": "Stanton",
-"m": 8900,
-"u": "17/11"
-},
 {
 "n": "Seer's Canyon",
 "w": "Vatra",
@@ -28,21 +21,21 @@
 "w": "Pyro IV",
 "s": "Pyro",
 "m": 7700,
-"u": "15/11"
+"u": "18/11"
 },
 {
 "n": "Admin - Gaslight",
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "15/11"
+"u": "14/11"
 },
 {
 "n": "Admin - Patch City",
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "12/11"
+"u": "18/11"
 },
 {
 "n": "Admin - Rat's Nest",
@@ -56,28 +49,28 @@
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "16/11"
+"u": "17/11"
 },
 {
 "n": "Admin - Starlight Service",
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "16/11"
+"u": "17/11"
 },
 {
 "n": "Ashland",
 "w": "Ignis",
 "s": "Pyro",
 "m": 7700,
-"u": "02/11"
+"u": "18/11"
 },
 {
 "n": "Fallow Field",
 "w": "Pyro IV",
 "s": "Pyro",
 "m": 7700,
-"u": "02/11"
+"u": "18/11"
 },
 {
 "n": "Last Landings",
@@ -99,6 +92,13 @@
 "s": "Pyro",
 "m": 7700,
 "u": "16/11"
+},
+{
+"n": "Terra Mills Hydrofarm",
+"w": "Cellin",
+"s": "Stanton",
+"m": 7400,
+"u": "17/11"
 },
 {
 "n": "Admin - GrimHEX",
@@ -140,7 +140,7 @@
 "w": "Wala",
 "s": "Stanton",
 "m": 6400,
-"u": "06/11"
+"u": "18/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
@@ -161,7 +161,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "17/11"
+"u": "18/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -189,16 +189,16 @@
 "w": "Euterpe",
 "s": "Stanton",
 "m": 5000,
-"u": "16/11"
+"u": "17/11"
 }
 ],
 "cm": [
 {
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
+"n": "Admin - MIC-L4",
+"w": "MicroTech",
 "s": "Stanton",
 "m": 13000,
-"u": "17/11"
+"u": "18/11"
 },
 {
 "n": "Admin - ARC-L4",
@@ -212,21 +212,28 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "16/11"
+"u": "18/11"
 },
 {
 "n": "Admin - ARC-L3",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "18/11"
 },
 {
 "n": "Admin - CRU-L4",
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "18/11"
+},
+{
+"n": "Admin - Everus Harbor",
+"w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "18/11"
 },
 {
 "n": "Admin - HUR-L1",
@@ -261,28 +268,28 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
-},
-{
-"n": "Admin - MIC-L4",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 12000,
-"u": "13/11"
+"u": "18/11"
 },
 {
 "n": "Admin - MIC-L5",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "14/11"
+"u": "18/11"
+},
+{
+"n": "Admin - Megumi Refueling",
+"w": "Terminus",
+"s": "Pyro",
+"m": 12000,
+"u": "18/11"
 },
 {
 "n": "Admin - Port Tressler",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "17/11"
+"u": "18/11"
 },
 {
 "n": "Admin - Ruin Station",
@@ -297,6 +304,13 @@
 "s": "Pyro",
 "m": 12000,
 "u": "15/11"
+},
+{
+"n": "Admin - Terra Gateway (Stanton)",
+"w": "Terra Gateway (Stanton system)",
+"s": "Stanton",
+"m": 12000,
+"u": "18/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
@@ -331,7 +345,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "17/11"
+"u": "18/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -362,13 +376,6 @@
 "u": "15/11"
 },
 {
-"n": "Admin - Megumi Refueling",
-"w": "Terminus",
-"s": "Pyro",
-"m": 11000,
-"u": "17/11"
-},
-{
 "n": "Admin - Orbituary",
 "w": "Bloom",
 "s": "Pyro",
@@ -388,13 +395,6 @@
 "s": "Stanton",
 "m": 11000,
 "u": "17/11"
-},
-{
-"n": "Admin - Terra Gateway (Stanton)",
-"w": "Terra Gateway (Stanton system)",
-"s": "Stanton",
-"m": 11000,
-"u": "16/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
