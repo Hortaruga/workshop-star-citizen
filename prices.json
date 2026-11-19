@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18",
+"updated": "2026-11-19",
 "gameVersion": "4.10.3",
 "rmc": [
 {
@@ -7,7 +7,7 @@
 "w": "Vatra",
 "s": "Pyro",
 "m": 8500,
-"u": "07/11"
+"u": "19/11"
 },
 {
 "n": "Admin - Dudley & Daughters",
@@ -24,13 +24,6 @@
 "u": "18/11"
 },
 {
-"n": "Admin - Gaslight",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7700,
-"u": "14/11"
-},
-{
 "n": "Admin - Patch City",
 "w": "Bloom",
 "s": "Pyro",
@@ -42,14 +35,14 @@
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "16/11"
+"u": "19/11"
 },
 {
 "n": "Admin - Rod's Fuel 'N Supplies",
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "17/11"
+"u": "19/11"
 },
 {
 "n": "Admin - Starlight Service",
@@ -94,6 +87,13 @@
 "u": "16/11"
 },
 {
+"n": "Admin - Gaslight",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7600,
+"u": "18/11"
+},
+{
 "n": "Terra Mills Hydrofarm",
 "w": "Cellin",
 "s": "Stanton",
@@ -112,7 +112,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 7200,
-"u": "17/11"
+"u": "18/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -154,7 +154,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 6000,
-"u": "15/11"
+"u": "19/11"
 },
 {
 "n": "TDD - Trade and Development Division - Area 18",
@@ -194,11 +194,18 @@
 ],
 "cm": [
 {
-"n": "Admin - MIC-L4",
-"w": "MicroTech",
+"n": "Admin - CRU-L4",
+"w": "Crusader",
 "s": "Stanton",
 "m": 13000,
-"u": "18/11"
+"u": "19/11"
+},
+{
+"n": "Admin - HUR-L3",
+"w": "Hurston",
+"s": "Stanton",
+"m": 13000,
+"u": "19/11"
 },
 {
 "n": "Admin - ARC-L4",
@@ -222,13 +229,6 @@
 "u": "18/11"
 },
 {
-"n": "Admin - CRU-L4",
-"w": "Crusader",
-"s": "Stanton",
-"m": 12000,
-"u": "18/11"
-},
-{
 "n": "Admin - Everus Harbor",
 "w": "Hurston",
 "s": "Stanton",
@@ -237,13 +237,6 @@
 },
 {
 "n": "Admin - HUR-L1",
-"w": "Hurston",
-"s": "Stanton",
-"m": 12000,
-"u": "17/11"
-},
-{
-"n": "Admin - HUR-L3",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
@@ -261,10 +254,17 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "16/11"
+"u": "19/11"
 },
 {
 "n": "Admin - MIC-L2",
+"w": "MicroTech",
+"s": "Stanton",
+"m": 12000,
+"u": "18/11"
+},
+{
+"n": "Admin - MIC-L4",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
@@ -285,18 +285,18 @@
 "u": "18/11"
 },
 {
+"n": "Admin - Orbituary",
+"w": "Bloom",
+"s": "Pyro",
+"m": 12000,
+"u": "19/11"
+},
+{
 "n": "Admin - Port Tressler",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
 "u": "18/11"
-},
-{
-"n": "Admin - Ruin Station",
-"w": "Terminus",
-"s": "Pyro",
-"m": 12000,
-"u": "17/11"
 },
 {
 "n": "Admin - Stanton Gateway (Pyro)",
@@ -310,14 +310,14 @@
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 12000,
-"u": "18/11"
+"u": "19/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "19/11"
 },
 {
 "n": "Rust - Dunboro",
@@ -366,19 +366,12 @@
 "w": "Monox",
 "s": "Pyro",
 "m": 11000,
-"u": "14/11"
+"u": "18/11"
 },
 {
 "n": "Admin - GrimHEX",
 "w": "Yela",
 "s": "Stanton",
-"m": 11000,
-"u": "15/11"
-},
-{
-"n": "Admin - Orbituary",
-"w": "Bloom",
-"s": "Pyro",
 "m": 11000,
 "u": "15/11"
 },
@@ -395,6 +388,13 @@
 "s": "Stanton",
 "m": 11000,
 "u": "17/11"
+},
+{
+"n": "Admin - Ruin Station",
+"w": "Terminus",
+"s": "Pyro",
+"m": 11000,
+"u": "18/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
