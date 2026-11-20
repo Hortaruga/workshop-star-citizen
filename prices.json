@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19",
+"updated": "2026-11-20",
 "gameVersion": "4.10.3",
 "rmc": [
 {
@@ -28,7 +28,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "18/11"
+"u": "20/11"
 },
 {
 "n": "Admin - Rat's Nest",
@@ -42,7 +42,7 @@
 "w": "Pyro V",
 "s": "Pyro",
 "m": 7700,
-"u": "19/11"
+"u": "20/11"
 },
 {
 "n": "Admin - Starlight Service",
@@ -84,7 +84,7 @@
 "w": "Bloom",
 "s": "Pyro",
 "m": 7700,
-"u": "16/11"
+"u": "20/11"
 },
 {
 "n": "Admin - Gaslight",
@@ -115,16 +115,16 @@
 "u": "18/11"
 },
 {
-"n": "Admin - Pyro Gateway (Nyx)",
-"w": "Pyro Gateway (Nyx system)",
-"s": "Nyx",
-"m": 7100,
-"u": "15/11"
-},
-{
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
 "w": "Crusader",
 "s": "Stanton",
+"m": 7200,
+"u": "20/11"
+},
+{
+"n": "Admin - Pyro Gateway (Nyx)",
+"w": "Pyro Gateway (Nyx system)",
+"s": "Nyx",
 "m": 7100,
 "u": "15/11"
 },
@@ -133,7 +133,7 @@
 "w": "Delamar",
 "s": "Nyx",
 "m": 6500,
-"u": "17/11"
+"u": "20/11"
 },
 {
 "n": "Samson & Son's Salvage Center",
@@ -201,25 +201,18 @@
 "u": "19/11"
 },
 {
-"n": "Admin - HUR-L3",
+"n": "Admin - Everus Harbor",
 "w": "Hurston",
 "s": "Stanton",
 "m": 13000,
-"u": "19/11"
-},
-{
-"n": "Admin - ARC-L4",
-"w": "ArcCorp",
-"s": "Stanton",
-"m": 12600,
-"u": "15/11"
+"u": "20/11"
 },
 {
 "n": "Admin - ARC-L1",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "18/11"
+"u": "19/11"
 },
 {
 "n": "Admin - ARC-L3",
@@ -229,11 +222,11 @@
 "u": "18/11"
 },
 {
-"n": "Admin - Everus Harbor",
-"w": "Hurston",
+"n": "Admin - ARC-L4",
+"w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "18/11"
+"u": "19/11"
 },
 {
 "n": "Admin - HUR-L1",
@@ -241,6 +234,13 @@
 "s": "Stanton",
 "m": 12000,
 "u": "17/11"
+},
+{
+"n": "Admin - HUR-L3",
+"w": "Hurston",
+"s": "Stanton",
+"m": 12000,
+"u": "20/11"
 },
 {
 "n": "Admin - HUR-L4",
@@ -275,14 +275,14 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "18/11"
+"u": "19/11"
 },
 {
 "n": "Admin - Megumi Refueling",
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "18/11"
+"u": "20/11"
 },
 {
 "n": "Admin - Orbituary",
@@ -310,7 +310,7 @@
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 12000,
-"u": "19/11"
+"u": "20/11"
 },
 {
 "n": "CBD - Central Business District - Lorville",
@@ -352,7 +352,7 @@
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "15/11"
+"u": "20/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
@@ -366,7 +366,7 @@
 "w": "Monox",
 "s": "Pyro",
 "m": 11000,
-"u": "18/11"
+"u": "19/11"
 },
 {
 "n": "Admin - GrimHEX",
