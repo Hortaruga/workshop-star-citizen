@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21",
+"updated": "2026-11-22",
 "gameVersion": "4.10.3",
 "rmc": [
 {
@@ -87,13 +87,6 @@
 "u": "20/11"
 },
 {
-"n": "Admin - Gaslight",
-"w": "Pyro V",
-"s": "Pyro",
-"m": 7600,
-"u": "18/11"
-},
-{
 "n": "Terra Mills Hydrofarm",
 "w": "Cellin",
 "s": "Stanton",
@@ -101,11 +94,11 @@
 "u": "17/11"
 },
 {
-"n": "Admin - GrimHEX",
-"w": "Yela",
-"s": "Stanton",
-"m": 7200,
-"u": "15/11"
+"n": "Admin - Gaslight",
+"w": "Pyro V",
+"s": "Pyro",
+"m": 7300,
+"u": "22/11"
 },
 {
 "n": "Admin - Ruin Station",
@@ -115,18 +108,18 @@
 "u": "18/11"
 },
 {
-"n": "TDD - Trade and Development Division - Cloudview Center - Orison",
-"w": "Crusader",
-"s": "Stanton",
-"m": 7200,
-"u": "20/11"
-},
-{
 "n": "Admin - Pyro Gateway (Nyx)",
 "w": "Pyro Gateway (Nyx system)",
 "s": "Nyx",
 "m": 7100,
 "u": "15/11"
+},
+{
+"n": "TDD - Trade and Development Division - Cloudview Center - Orison",
+"w": "Crusader",
+"s": "Stanton",
+"m": 7100,
+"u": "22/11"
 },
 {
 "n": "Levski",
@@ -150,6 +143,13 @@
 "u": "17/11"
 },
 {
+"n": "Admin - GrimHEX",
+"w": "Yela",
+"s": "Stanton",
+"m": 6000,
+"u": "22/11"
+},
+{
 "n": "CBD - Central Business District - Lorville",
 "w": "Hurston",
 "s": "Stanton",
@@ -168,7 +168,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "21/11"
+"u": "22/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -194,18 +194,11 @@
 ],
 "cm": [
 {
-"n": "Admin - Port Tressler",
-"w": "MicroTech",
-"s": "Stanton",
-"m": 13000,
-"u": "20/11"
-},
-{
 "n": "Admin - ARC-L1",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "19/11"
+"u": "22/11"
 },
 {
 "n": "Admin - ARC-L3",
@@ -219,7 +212,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "19/11"
+"u": "22/11"
 },
 {
 "n": "Admin - CRU-L4",
@@ -240,7 +233,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "21/11"
+"u": "22/11"
 },
 {
 "n": "Admin - HUR-L3",
@@ -285,13 +278,6 @@
 "u": "19/11"
 },
 {
-"n": "Admin - Megumi Refueling",
-"w": "Terminus",
-"s": "Pyro",
-"m": 12000,
-"u": "20/11"
-},
-{
 "n": "Admin - Orbituary",
 "w": "Bloom",
 "s": "Pyro",
@@ -299,11 +285,11 @@
 "u": "19/11"
 },
 {
-"n": "Admin - Pyro Gateway (Stanton)",
-"w": "Pyro Gateway (Stanton system)",
+"n": "Admin - Port Tressler",
+"w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "20/11"
+"u": "22/11"
 },
 {
 "n": "Admin - Stanton Gateway (Pyro)",
@@ -352,21 +338,21 @@
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "20/11"
+"u": "22/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "21/11"
+"u": "22/11"
 },
 {
 "n": "Admin - Checkmate",
 "w": "Monox",
 "s": "Pyro",
 "m": 11000,
-"u": "19/11"
+"u": "22/11"
 },
 {
 "n": "Admin - GrimHEX",
@@ -376,11 +362,25 @@
 "u": "15/11"
 },
 {
+"n": "Admin - Megumi Refueling",
+"w": "Terminus",
+"s": "Pyro",
+"m": 11000,
+"u": "21/11"
+},
+{
 "n": "Admin - Pyro Gateway (Nyx)",
 "w": "Pyro Gateway (Nyx system)",
 "s": "Nyx",
 "m": 11000,
 "u": "15/11"
+},
+{
+"n": "Admin - Pyro Gateway (Stanton)",
+"w": "Pyro Gateway (Stanton system)",
+"s": "Stanton",
+"m": 11000,
+"u": "22/11"
 },
 {
 "n": "Admin - Ruin Station",
