@@ -1,7 +1,14 @@
 {
-"updated": "2026-11-24",
+"updated": "2026-11-25",
 "gameVersion": "4.10.3",
 "rmc": [
+{
+"n": "Admin - Endgame",
+"w": "Pyro IV",
+"s": "Pyro",
+"m": 7700,
+"u": "24/11"
+},
 {
 "n": "Admin - Rat's Nest",
 "w": "Pyro V",
@@ -69,8 +76,8 @@
 "n": "Admin - Gaslight",
 "w": "Pyro V",
 "s": "Pyro",
-"m": 7600,
-"u": "23/11"
+"m": 7500,
+"u": "24/11"
 },
 {
 "n": "Admin - Patch City",
@@ -94,18 +101,11 @@
 "u": "23/11"
 },
 {
-"n": "Admin - Endgame",
-"w": "Pyro IV",
-"s": "Pyro",
-"m": 7200,
-"u": "22/11"
-},
-{
 "n": "Admin - Ruin Station",
 "w": "Terminus",
 "s": "Pyro",
 "m": 7200,
-"u": "24/11"
+"u": "25/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
@@ -154,21 +154,21 @@
 "w": "Delamar",
 "s": "Nyx",
 "m": 6000,
-"u": "23/11"
+"u": "24/11"
 },
 {
 "n": "TDD - Trade and Development Division - Area 18",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "22/11"
+"u": "24/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "23/11"
+"u": "24/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -226,7 +226,7 @@
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "24/11"
+"u": "25/11"
 },
 {
 "n": "Admin - HUR-L1",
@@ -282,14 +282,7 @@
 "w": "Terminus",
 "s": "Pyro",
 "m": 12000,
-"u": "22/11"
-},
-{
-"n": "Admin - Orbituary",
-"w": "Bloom",
-"s": "Pyro",
-"m": 12000,
-"u": "19/11"
+"u": "25/11"
 },
 {
 "n": "Admin - Port Tressler",
@@ -359,7 +352,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "23/11"
+"u": "24/11"
 },
 {
 "n": "Admin - Checkmate",
@@ -374,6 +367,13 @@
 "s": "Stanton",
 "m": 11000,
 "u": "15/11"
+},
+{
+"n": "Admin - Orbituary",
+"w": "Bloom",
+"s": "Pyro",
+"m": 11000,
+"u": "24/11"
 },
 {
 "n": "Admin - Pyro Gateway (Nyx)",
