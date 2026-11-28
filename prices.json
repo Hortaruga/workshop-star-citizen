@@ -1,14 +1,7 @@
 {
-"updated": "2026-11-27",
+"updated": "2026-11-28",
 "gameVersion": "4.10.3",
 "rmc": [
-{
-"n": "Admin - Endgame",
-"w": "Pyro IV",
-"s": "Pyro",
-"m": 7700,
-"u": "25/11"
-},
 {
 "n": "Admin - Gaslight",
 "w": "Pyro V",
@@ -78,6 +71,13 @@
 "s": "Pyro",
 "m": 7500,
 "u": "24/11"
+},
+{
+"n": "Admin - Endgame",
+"w": "Pyro IV",
+"s": "Pyro",
+"m": 7400,
+"u": "28/11"
 },
 {
 "n": "Seer's Canyon",
@@ -154,21 +154,21 @@
 "w": "Delamar",
 "s": "Nyx",
 "m": 6000,
-"u": "25/11"
+"u": "28/11"
 },
 {
 "n": "TDD - Trade and Development Division - Area 18",
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 6000,
-"u": "26/11"
+"u": "27/11"
 },
 {
 "n": "TDD - Trade and Development Division - Commons - New Babbage",
 "w": "MicroTech",
 "s": "Stanton",
 "m": 6000,
-"u": "27/11"
+"u": "28/11"
 },
 {
 "n": "Maintenance Room - CRU-L5",
@@ -212,21 +212,21 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "27/11"
+"u": "28/11"
 },
 {
 "n": "Admin - CRU-L4",
 "w": "Crusader",
 "s": "Stanton",
 "m": 12000,
-"u": "25/11"
+"u": "27/11"
 },
 {
 "n": "Admin - Everus Harbor",
 "w": "Hurston",
 "s": "Stanton",
 "m": 12000,
-"u": "27/11"
+"u": "28/11"
 },
 {
 "n": "Admin - HUR-L1",
@@ -254,7 +254,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "24/11"
+"u": "28/11"
 },
 {
 "n": "Admin - MIC-L2",
@@ -338,7 +338,7 @@
 "w": "ArcCorp",
 "s": "Stanton",
 "m": 12000,
-"u": "26/11"
+"u": "27/11"
 },
 {
 "n": "TDD - Trade and Development Division - Cloudview Center - Orison",
@@ -352,7 +352,7 @@
 "w": "MicroTech",
 "s": "Stanton",
 "m": 12000,
-"u": "27/11"
+"u": "28/11"
 },
 {
 "n": "Admin - Checkmate",
@@ -394,7 +394,7 @@
 "w": "Terra Gateway (Stanton system)",
 "s": "Stanton",
 "m": 11000,
-"u": "23/11"
+"u": "27/11"
 },
 {
 "n": "Reclamation and Disposal Orinth",
